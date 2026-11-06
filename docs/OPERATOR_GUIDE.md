@@ -20,7 +20,7 @@ Short and practical. Read [PROVIDERS.md](PROVIDERS.md) for what was verified abo
 
 ## Weekly routine (about 1 to 3 hours)
 
-1. **Collect** (Phase 3, not built yet): the scheduled GitHub Action opens a draft PR with candidates and the week's monitoring log. Until then, there are no monitoring counts and the digest says so.
+1. **Collect**: the "Collect research" workflow runs every Monday and opens or updates the draft PR "Research drafts (not published)" with candidates, optional AI suggestions, and the week's monitoring counts. Merge it once you've looked at it: that saves the checkpoints and counts (it publishes nothing).
 2. **Review**: for each candidate worth acting on, edit a draft in `drafts/claims/`, read the source, then:
    ```bash
    npm run approve -- <claim-id> --reviewer "Your Name" --reason "Why this is right"
