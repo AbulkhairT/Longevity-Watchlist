@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "omega-3-atrial-fibrillation",
+  "interventionId": "omega-3",
+  "title": "Atrial fibrillation risk",
+  "order": 1,
+  "fixture": true,
+  "illustrative": true,
+  "assessment": {
+    "confidence": "moderate",
+    "finding": "suggests-harm",
+    "evidenceBase": "human",
+    "population": "Participants in cardiovascular trials",
+    "design": "Meta-analyses of trials",
+    "outcomeType": "health-outcome",
+    "plain": "Higher doses linked with more irregular heartbeat.",
+    "summary": "Pooled trial data link omega-3 supplements, especially at higher doses, with more atrial fibrillation.",
+    "rationale": "Illustrative grade for design review only. Not assessed against the rubric.",
+    "limitations": "The absolute increase is small and appears dose-dependent.",
+    "evidenceIds": []
+  },
+  "review": {
+    "status": "unreviewed"
+  },
+  "updates": [
+    {
+      "id": "omega-3-atrial-fibrillation-first-assessment",
+      "kind": "first-assessment",
+      "date": null,
+      "summary": "Illustrative starting grade: moderate confidence. Sample content, not a reviewed assessment.",
+      "whyItMatters": "Sets the starting point that later changes are measured against.",
+      "reasoning": "Design fixture. No reviewer has assessed this claim.",
+      "previous": null,
+      "next": {
+        "confidence": "moderate",
+        "finding": "suggests-harm"
+      },
+      "evidenceIds": [],
+      "review": {
+        "status": "unreviewed"
+      }
+    },
+    {
+      "id": "omega-3-atrial-fibrillation-sample-update",
+      "kind": "new-evidence",
+      "date": null,
+      "summary": "Illustrative: a new meta-analysis reaches the same conclusion. It adds support but does not change the grade or finding.",
+      "whyItMatters": "Agreement from another pooled analysis is reassuring but does not move the grade.",
+      "reasoning": "Design fixture. No reviewer has assessed this change.",
+      "previous": {
+        "confidence": "moderate",
+        "finding": "suggests-harm"
+      },
+      "next": {
+        "confidence": "moderate",
+        "finding": "suggests-harm"
+      },
+      "evidenceIds": [],
+      "review": {
+        "status": "unreviewed"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "omega-3",
+  "name": "Omega-3",
+  "order": 5,
+  "summary": "Illustrative sample. Fish oil and other omega-3 fatty acid supplements.",
+  "aliases": [
+    "fish oil",
+    "EPA",
+    "DHA"
+  ],
+  "fixture": true
+}

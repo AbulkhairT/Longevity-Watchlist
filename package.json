@@ -1,0 +1,37 @@
+{
+  "name": "longevity-watchlist",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Longevity Watchlist: a source-backed tracker of how the research behind wellness interventions changes, claim by claim.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20.9"
+  },
+  "scripts": {
+    "dev": "LW_CONTENT_MODE=fixtures next dev",
+    "build": "next build",
+    "build:fixtures": "LW_CONTENT_MODE=fixtures next build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "validate": "tsx scripts/validate-content.ts",
+    "check": "npm run typecheck && npm test && npm run validate",
+    "check:export": "tsx scripts/check-export.ts",
+    "check:export:fixtures": "LW_CONTENT_MODE=fixtures tsx scripts/check-export.ts",
+    "preview": "node scripts/serve-static.mjs out 4173"
+  },
+  "dependencies": {
+    "next": "^16.4.5",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "5.9",
+    "vitest": "^5.1.0"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "creatine-strength",
+  "interventionId": "creatine",
+  "title": "Muscle strength",
+  "order": 0,
+  "fixture": true,
+  "illustrative": true,
+  "assessment": {
+    "confidence": "high",
+    "finding": "supports-benefit",
+    "evidenceBase": "human",
+    "population": "Adults, mostly alongside resistance training, including older adults",
+    "design": "Many randomized trials",
+    "outcomeType": "health-outcome",
+    "plain": "Adds strength when paired with training.",
+    "summary": "Trials generally report larger strength gains with creatine than with placebo when combined with training.",
+    "rationale": "Illustrative grade for design review only. Not assessed against the rubric.",
+    "limitations": "Benefit is smaller or unclear without training. Most trials run for weeks to months, not years.",
+    "evidenceIds": []
+  },
+  "review": {
+    "status": "unreviewed"
+  },
+  "updates": [
+    {
+      "id": "creatine-strength-first-assessment",
+      "kind": "first-assessment",
+      "date": null,
+      "summary": "Illustrative starting grade: high confidence. Sample content, not a reviewed assessment.",
+      "whyItMatters": "Sets the starting point that later changes are measured against.",
+      "reasoning": "Design fixture. No reviewer has assessed this claim.",
+      "previous": null,
+      "next": {
+        "confidence": "high",
+        "finding": "supports-benefit"
+      },
+      "evidenceIds": [],
+      "review": {
+        "status": "unreviewed"
+      }
+    }
+  ]
+}

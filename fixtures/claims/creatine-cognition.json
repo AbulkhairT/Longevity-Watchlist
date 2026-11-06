@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "creatine-cognition",
+  "interventionId": "creatine",
+  "title": "Cognition",
+  "order": 1,
+  "fixture": true,
+  "illustrative": true,
+  "assessment": {
+    "confidence": "low",
+    "finding": "mixed",
+    "evidenceBase": "human",
+    "population": "Young adults, older adults, and sleep-deprived volunteers",
+    "design": "Small randomized trials",
+    "outcomeType": "health-outcome",
+    "plain": "Small trials disagree on memory and thinking.",
+    "summary": "Small trials disagree. Some report benefits under sleep deprivation or in older adults; others find no change.",
+    "rationale": "Illustrative grade for design review only. Not assessed against the rubric.",
+    "limitations": "Small samples, different cognitive tests, short duration.",
+    "evidenceIds": []
+  },
+  "review": {
+    "status": "unreviewed"
+  },
+  "updates": [
+    {
+      "id": "creatine-cognition-first-assessment",
+      "kind": "first-assessment",
+      "date": null,
+      "summary": "Illustrative starting grade: very low confidence. Sample content, not a reviewed assessment.",
+      "whyItMatters": "Sets the starting point that later changes are measured against.",
+      "reasoning": "Design fixture. No reviewer has assessed this claim.",
+      "previous": null,
+      "next": {
+        "confidence": "very-low",
+        "finding": "mixed"
+      },
+      "evidenceIds": [],
+      "review": {
+        "status": "unreviewed"
+      }
+    },
+    {
+      "id": "creatine-cognition-sample-update",
+      "kind": "grade-change",
+      "date": null,
+      "summary": "Illustrative: a new randomized trial in older adults adds a second comparable human dataset. Results still disagree, so the finding stays mixed.",
+      "whyItMatters": "A second comparable human dataset makes the low grade more trustworthy, but it does not show a benefit.",
+      "reasoning": "Design fixture. No reviewer has assessed this change.",
+      "previous": {
+        "confidence": "very-low",
+        "finding": "mixed"
+      },
+      "next": {
+        "confidence": "low",
+        "finding": "mixed"
+      },
+      "evidenceIds": [],
+      "review": {
+        "status": "unreviewed"
+      }
+    }
+  ]
+}

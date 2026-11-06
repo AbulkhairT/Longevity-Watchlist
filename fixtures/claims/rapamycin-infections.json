@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "rapamycin-infections",
+  "interventionId": "rapamycin",
+  "title": "Infections in older adults",
+  "order": 1,
+  "fixture": true,
+  "illustrative": true,
+  "assessment": {
+    "confidence": "low",
+    "finding": "mixed",
+    "evidenceBase": "human",
+    "population": "Older adults. Trials used related drugs, not rapamycin itself",
+    "design": "Randomized trials of related mTOR inhibitors",
+    "outcomeType": "health-outcome",
+    "plain": "Early promise, then a larger trial missed its goal.",
+    "summary": "Early trials suggested fewer respiratory infections; a later, larger trial missed its main goal.",
+    "rationale": "Illustrative grade for design review only. Not assessed against the rubric.",
+    "limitations": "Different drugs and doses across trials. Not directly about rapamycin.",
+    "evidenceIds": []
+  },
+  "review": {
+    "status": "unreviewed"
+  },
+  "updates": [
+    {
+      "id": "rapamycin-infections-first-assessment",
+      "kind": "first-assessment",
+      "date": null,
+      "summary": "Illustrative starting grade: low confidence. Sample content, not a reviewed assessment.",
+      "whyItMatters": "Sets the starting point that later changes are measured against.",
+      "reasoning": "Design fixture. No reviewer has assessed this claim.",
+      "previous": null,
+      "next": {
+        "confidence": "low",
+        "finding": "mixed"
+      },
+      "evidenceIds": [],
+      "review": {
+        "status": "unreviewed"
+      }
+    }
+  ]
+}

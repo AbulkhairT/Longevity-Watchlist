@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "vitamin-d",
+  "name": "Vitamin D",
+  "order": 4,
+  "summary": "Illustrative sample. Routine vitamin D supplementation.",
+  "aliases": [
+    "cholecalciferol"
+  ],
+  "fixture": true
+}

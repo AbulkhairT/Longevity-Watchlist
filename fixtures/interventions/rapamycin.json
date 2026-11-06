@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "rapamycin",
+  "name": "Rapamycin",
+  "order": 2,
+  "summary": "Illustrative sample. An mTOR inhibitor used in transplant medicine and studied in ageing.",
+  "aliases": [
+    "sirolimus"
+  ],
+  "fixture": true
+}

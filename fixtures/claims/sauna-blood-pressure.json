@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "sauna-blood-pressure",
+  "interventionId": "sauna",
+  "title": "Blood pressure",
+  "order": 1,
+  "fixture": true,
+  "illustrative": true,
+  "assessment": {
+    "confidence": "low",
+    "finding": "supports-benefit",
+    "evidenceBase": "human",
+    "population": "Adults with and without high blood pressure",
+    "design": "Small trials",
+    "outcomeType": "biomarker",
+    "plain": "Drops after sessions in short studies.",
+    "summary": "Short studies show blood pressure drops after sauna sessions.",
+    "rationale": "Illustrative grade for design review only. Not assessed against the rubric.",
+    "limitations": "A biomarker, not a health outcome. Mostly short-term effects measured right after sessions.",
+    "evidenceIds": []
+  },
+  "review": {
+    "status": "unreviewed"
+  },
+  "updates": [
+    {
+      "id": "sauna-blood-pressure-first-assessment",
+      "kind": "first-assessment",
+      "date": null,
+      "summary": "Illustrative starting grade: very low confidence. Sample content, not a reviewed assessment.",
+      "whyItMatters": "Sets the starting point that later changes are measured against.",
+      "reasoning": "Design fixture. No reviewer has assessed this claim.",
+      "previous": null,
+      "next": {
+        "confidence": "very-low",
+        "finding": "supports-benefit"
+      },
+      "evidenceIds": [],
+      "review": {
+        "status": "unreviewed"
+      }
+    },
+    {
+      "id": "sauna-blood-pressure-sample-update",
+      "kind": "grade-change",
+      "date": null,
+      "summary": "Illustrative: a second controlled trial with repeated sessions over several weeks. Still a biomarker result, not proof of fewer heart events.",
+      "whyItMatters": "Repeated sessions over weeks are closer to real use than single sessions, so confidence in the blood pressure effect rises a step.",
+      "reasoning": "Design fixture. No reviewer has assessed this change.",
+      "previous": {
+        "confidence": "very-low",
+        "finding": "supports-benefit"
+      },
+      "next": {
+        "confidence": "low",
+        "finding": "supports-benefit"
+      },
+      "evidenceIds": [],
+      "review": {
+        "status": "unreviewed"
+      }
+    }
+  ]
+}

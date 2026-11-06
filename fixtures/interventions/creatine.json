@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "id": "creatine",
+  "name": "Creatine",
+  "order": 0,
+  "summary": "Illustrative sample. A supplement studied mainly for muscle and, more recently, the brain.",
+  "aliases": [],
+  "fixture": true
+}

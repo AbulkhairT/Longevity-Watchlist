@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "omega-3-heart-events",
+  "interventionId": "omega-3",
+  "title": "Heart events, no prior disease",
+  "order": 0,
+  "fixture": true,
+  "illustrative": true,
+  "assessment": {
+    "confidence": "moderate",
+    "finding": "no-meaningful-benefit",
+    "evidenceBase": "human",
+    "population": "Adults without existing heart disease",
+    "design": "Large randomized trials",
+    "outcomeType": "health-outcome",
+    "plain": "Little or no reduction in heart attacks or strokes.",
+    "summary": "Large trials in people without heart disease found little or no reduction in heart attacks or strokes.",
+    "rationale": "Illustrative grade for design review only. Not assessed against the rubric.",
+    "limitations": "Results differ in high-risk patients and with prescription-strength formulations. That is a separate claim.",
+    "evidenceIds": []
+  },
+  "review": {
+    "status": "unreviewed"
+  },
+  "updates": [
+    {
+      "id": "omega-3-heart-events-first-assessment",
+      "kind": "first-assessment",
+      "date": null,
+      "summary": "Illustrative starting grade: moderate confidence. Sample content, not a reviewed assessment.",
+      "whyItMatters": "Sets the starting point that later changes are measured against.",
+      "reasoning": "Design fixture. No reviewer has assessed this claim.",
+      "previous": null,
+      "next": {
+        "confidence": "moderate",
+        "finding": "no-meaningful-benefit"
+      },
+      "evidenceIds": [],
+      "review": {
+        "status": "unreviewed"
+      }
+    }
+  ]
+}
