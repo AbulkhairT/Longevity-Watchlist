@@ -1,11 +1,14 @@
 {
-  "$comment": "Research pipeline limits. Only a human edits this file. The AI model is pinned here and is never switched automatically.",
+  "$comment": "Research pipeline limits. Only a human edits this file. The AI model is pinned here and is never switched automatically. Endpoint and fields verified against docs.z.ai on 2026-11-06. If the smoke test shows response_format or thinking is rejected, set only that send* switch to false.",
   "schemaVersion": 1,
   "schedule": "weekly",
   "ai": {
     "provider": "z.ai",
     "model": "glm-4.7-flash",
     "endpoint": "https://api.z.ai/api/paas/v4/chat/completions",
+    "temperature": 0.2,
+    "sendResponseFormat": true,
+    "sendThinkingDisabled": true,
     "freeTierConfirmed": false,
     "freeTierConfirmedBy": null,
     "freeTierConfirmedOn": null,
@@ -18,7 +21,12 @@
     "maxOutputTokensPerRequest": 1200,
     "requestTimeoutSeconds": 60,
     "maxTransientRetries": 2,
-    "stopOnStatus": [401, 402, 403, 429]
+    "stopOnStatus": [
+      401,
+      402,
+      403,
+      429
+    ]
   },
   "collection": {
     "pubmed": {
