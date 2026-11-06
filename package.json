@@ -22,7 +22,9 @@
     "preview": "node scripts/serve-static.mjs out 4173",
     "approve": "tsx scripts/approve.ts",
     "digest": "tsx scripts/digest.ts",
-    "zai:smoke": "tsx scripts/zai-smoke-test.ts"
+    "zai:smoke": "tsx scripts/zai-smoke-test.ts",
+    "collect": "tsx scripts/collect.ts",
+    "collect:dry-run": "tsx scripts/collect.ts --dry-run"
   },
   "dependencies": {
     "next": "^16.4.5",

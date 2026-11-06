@@ -55,7 +55,7 @@ content/          Published content. Only approved claims are built into the sit
   evidence/       One JSON file per source (PMID, DOI, NCT or FDA identifier required)
 fixtures/         Design fixtures. Illustrative, unreviewed, no sources, no dates.
 drafts/           Candidates, AI output and drafts being edited. Never read by the website or digest.
-monitoring/runs/  What each collection run checked, per intervention. Not public content.
+drafts/monitoring/runs/  What each collection run checked, per intervention. Not public content.
 config/           pipeline.json (limits, model pin) and digest.json (prices, provider links).
 ```
 

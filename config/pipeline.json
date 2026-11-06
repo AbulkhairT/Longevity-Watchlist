@@ -34,15 +34,19 @@
       "requestsPerSecondWithoutKey": 2,
       "requestsPerSecondWithKey": 8,
       "maxResultsPerQuery": 20,
+      "esearchPageSize": 10,
+      "efetchBatchSize": 20,
       "lookbackDays": 14
     },
     "clinicaltrials": {
       "maxRequestsPerRun": 40,
       "minSecondsBetweenRequests": 1,
       "pageSize": 20,
-      "maxPagesPerQuery": 2
+      "maxPagesPerQuery": 2,
+      "lookbackDays": 14
     },
     "requestTimeoutSeconds": 30,
-    "maxTransientRetries": 2
+    "maxTransientRetries": 2,
+    "maxNewCandidatesPerRun": 60
   }
 }

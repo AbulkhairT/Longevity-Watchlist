@@ -1,0 +1,232 @@
+{
+ "totalCount": 1,
+ "studies": [
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT07233707",
+     "orgStudyIdInfo": {
+      "id": "3301/21-07-2025"
+     },
+     "organization": {
+      "fullName": "Harokopio University",
+      "class": "OTHER"
+     },
+     "briefTitle": "Load and Hold: Impact of 7-Day Creatine Monohydrate Loading on Breath-Hold Cycling Performance",
+     "officialTitle": "Impact of Creatine Monohydrate Supplementation on Breath-Hold Exercise Performance on a Bicycle Ergometer",
+     "acronym": "BREATHE-C"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2025-11",
+     "overallStatus": "ENROLLING_BY_INVITATION",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2025-07-24",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2025-11-26",
+      "type": "ESTIMATED"
+     },
+     "completionDateStruct": {
+      "date": "2026-08-26",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2025-09-09",
+     "studyFirstSubmitQcDate": "2025-11-16",
+     "studyFirstPostDateStruct": {
+      "date": "2025-11-18",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-11-16",
+     "lastUpdatePostDateStruct": {
+      "date": "2025-11-18",
+      "type": "ACTUAL"
+     }
+    },
+    "descriptionModule": {
+     "briefSummary": "The present study aims to investigate the effects of creatine monohydrate supplementation on maximal breath-hold exercise performance on a bicycle ergometer in trained breath-hold divers. The testing protocol is specifically designed to replicate the physiological demands and exercise intensity of a maximal dynamic breath-hold dive.\n\nCreatine supplementation may improve breath-hold exercise capacity by acting as a rapid, anaerobic energy source that is independent of oxygen availability that does not generate fatigue-inducing metabolic byproducts. Furthermore, its intracellular buffering properties may help delay the onset of metabolic acidosis, thereby possibly prolonging muscular work under hypoxic conditions.\n\nTherefore, the main questions the study aims to answer are:\n\n1. Can creatine monohydrate loading supplementation protocol improve breath-hold exercise performance by increasing total work (TW) and time to exhaustion (TTE)?\n2. Can it will increase lactate threshold and delay the onset of the metabolic acidosis?\n\nResearchers will compare creatine monohydrate supplementation to a placebo (maltodextrin) to determine whether creatine improves maximal breath-hold exercise performance on a bicycle ergometer in trained breath-hold divers.\n\nParticipants will:\n\n1. Attend scheduled laboratory visits on 4 occasions (one for performing graded exercise test (GXT), one for familiarization with the breath-hold exercise (BHE) protocol, one for pre-supplementation BHE testing, one for post-supplementation BHE testing)\n2. Take creatine monohydrate or a placebo for 7 days (5g four times per day)\n3. Report any discomforts during supplementation period, log the type and frequency of their trainings 7 days prior to pre and post-supplementation testing, report everything they ate and drunk on the day prior to the pre and post-supplementation testing",
+     "detailedDescription": "Creatine is well known for its role in enhancing adenosine triphosphate (ATP) regeneration and therefore aiding in short high-intensity activities, improving work capacity and power output of skeletal muscle, and delaying the onset of muscle fatigue. However, research on creatine supplementation in endurance sports has yielded inconsistent results. Some studies in this field showed improved endurance performance, while others failed to demonstrate it, or even showed decrements in it. This variability may stem from different supplementation protocols or the wide range of protocols used for measuring performance. Additionally, the increase in body mass resulting from creatine's osmotic properties may negatively impact performance in weight-bearing sports. Another factor may be muscle fiber composition, as individuals who respond best to creatine supplementation typically have a higher proportion of type II muscle fibers, whereas endurance athletes usually predominantly possess type I fibers.\n\nBreath-hold diving is the practice of diving underwater on a single breath. Sport disciplines in breath-hold diving can be divided into three categories: static breath-hold, depth disciplines and dynamic disciplines. Static breath-hold focus on holding the breath for the longest possible time, depth disciplines focus on reaching the greatest possible depth underwater, while dynamic disciplines focus on covering the greatest possible distance underwater on a single breath. These disciplines test diver's oxygen (O2) management, metabolic byproducts tolerance, movement efficiency and energy conservation. Some of the limitations in breath-hold diving include tolerance to fatigue-inducing metabolic byproducts, the buildup of carbon dioxide (CO2) and O2 availability. As dive time and the muscular activity increase, O2 levels decrease, and reliance on anaerobic metabolic pathway intensifies, leading to the accumulation of metabolic byproducts such as lactate. Therefore, divers, among other things, train to optimize O2 utilization, to delay metabolic acidosis onset, and to enhance tolerance to elevated levels of metabolic byproducts.\n\nAlthough breath-hold diving may not be considered a high-intensity sport in terms of heart rate and movement speed, it involves a unique performance pattern that includes limited availability of O2 and triggers a shift to anaerobic metabolism. This shift is sustained over extended periods, requiring significant effort and endurance to maintain performance. It is important to highlight that no form of exercise is purely anaerobic or aerobic, and that all energy systems contribute to ATP re-synthesis. However, their contribution depends on the nature of the activity. So, even though the phosphocreatine system may not dominate when it comes to endurance sports, it can still buffer energy demands and therefore prevent early onset of fatigue. Therefore, the energy produced by creatine phosphate (CP) is used for ATP yield as long as possible and it was shown that even though contribution of CP is reduced between 100 and 200 meters of running sprint, the CP stores are depleted only at the end of 400 meters.\n\nAs breath-hold diving requires efficient O2 utilization and as body relies predominantly on anaerobic metabolism that leads to metabolic acidosis, efficient ATP production, O2 utilization and CO2 production are crucial. Creatine supplementation may offer benefits by providing efficient energy production and delaying the onset of metabolic acidosis. In addition, creatine has an ability to buffer acidity by accepting and neutralizing excess hydrogen ions that accumulate in the muscles as a byproduct of anaerobic metabolism.\n\nLactate threshold (LT) is defined as the point of the exercise intensity at which lactate begins to accumulate in the blood at a faster rate than it can be cleared. A higher LT allows athletes to sustain higher speeds or higher power outputs before the onset of fatigue. Breath-hold divers could also benefit from a higher LT because of the delayed buildup of anaerobic metabolism byproducts. In various strength-endurance test protocols, creatine supplementation was suggested to increase LT, by improving ATP regeneration and increasing muscle buffering capacity, as well as to improve performance measured by total work (TW), time to exhaustion (TTE) and power output. Still, some studies failed to show improved endurance performance and increased LT.\n\nIn addition, ventilatory threshold (VT) is defined as the point during exercise at which ventilation increases disproportionately to O2 consumption due to the need to exhale accumulated CO2. VT is closely related to LT because when lactate starts accumulating, hydrogen ions accumulate too, non-metabolic CO2 production increases and so does the ventilatory rate. Nelson et al (2000) observed a significant lengthening of the run distance to the VT in long distance runners on a graded exercise test (GTX) after creatine supplementation. Authors concluded that this alteration resulted in the body being able to perform sub-maximal workload at a lower O2 cost and reduced work by cardiovascular system measured by heart rate.\n\nCreatine supplementation may enhance breath-hold exercise performance by serving as an anaerobic alactic source of energy. Additionally, creatine has intracellular buffering properties that can help delay the onset of metabolic acidosis, thereby extending the duration of muscle work under hypoxic conditions.\n\nThe breath-hold exercise will be performed on a bicycle ergometer at an intensity matched to the maximal dynamic breath-hold dive, using heart rate as the indicator. The protocol is designed to replicate the key metabolic demands of dynamic breath-hold dive by requiring muscle work under hypoxic conditions.\n\nParticipants' heart rate after the maximal dynamic breath-hold dive will be accessed at their pool training. Individual end-dive heart rate (HR) will be used as indicator of exercise intensity for designing an individual breath-hold testing protocol for each participant. Participants will perform GXT in the laboratory in order to find the corresponding resistance on the bicycle ergometer that will match their end-dive HR. Therefore, the resistance on the bicycle ergometer that will be used for the final pre and post-supplementation testing will be defined by end-dive HR and data from GXT. Final testing will include cycling on the stationary ergometer where participants will be asked to cover the longest possible distance on one breath. Main measurements will include: distance covered on one breath, time of the breath-hold, pre and post-test lactate from the earlobe and rating of perceived exertion."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy"
+     ],
+     "keywords": [
+      "breath-hold exercise performance",
+      "creatine monohydrate loading",
+      "supplementation",
+      "bicycle ergometer",
+      "ergogenic aid",
+      "anaerobic endurance performance",
+      "nutritional intervention"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "NA"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "OTHER",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 26,
+      "type": "ESTIMATED"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Creatine monohydrate (CM) group",
+       "type": "EXPERIMENTAL",
+       "description": "CM group will receive 20 grams of creatine monohydrate per day for 7 days",
+       "interventionNames": [
+        "Dietary Supplement: Creatine Monohydrate"
+       ]
+      },
+      {
+       "label": "Placebo (PL) group",
+       "type": "PLACEBO_COMPARATOR",
+       "description": "PL group will receive 20 grams of maltodextrin per day for 7 days",
+       "interventionNames": [
+        "Dietary Supplement: Placebo Control"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DIETARY_SUPPLEMENT",
+       "name": "Creatine Monohydrate",
+       "description": "Creatine monohydrate 7-day loading phase",
+       "armGroupLabels": [
+        "Creatine monohydrate (CM) group"
+       ]
+      },
+      {
+       "type": "DIETARY_SUPPLEMENT",
+       "name": "Placebo Control",
+       "description": "20 grams of maltodextrin per day for 7 days",
+       "armGroupLabels": [
+        "Placebo (PL) group"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Total Work",
+       "description": "Performance will be evaluated based on two parameters, one of which is Total Work (TW). TW will represent distance covered on the bicycle ergometer on the maximum breath-hold exercise attempt. It will be measured on the bicycle ergometer Monark 839 E and expressed in meters.",
+       "timeFrame": "From enrollment to study (baseline/pre-supplementation testing) to end of the study (post-supplementation testing which takes place after 7 days of supplementation period)"
+      },
+      {
+       "measure": "Time to Exhaustion",
+       "description": "Performance will be evaluated based on two parameters, one of which is Time to Exhaustion (TTE). TTE will represent duration of the breath-hold during the maximum breath-hold exercise attempt. It will be measured on the bicycle ergometer Monark 839 E and expressed in seconds.",
+       "timeFrame": "From enrollment to study (baseline/pre-supplementation testing) to end of the study (post-supplementation testing which takes place after 7 days of supplementation period)"
+      },
+      {
+       "measure": "Lactate accumulation",
+       "description": "Lactate accumulation (the difference between lactate concentration in peripheral circulation immediately after exercise and that measured three minutes before exercise) will represent an objective indicator of fatigue. It will be measured from the earlobe using Lactate Scout 4 device, before and after maximum breath-hold exercise attempt, on both pre and post supplementation testing.",
+       "timeFrame": "From enrollment to study (baseline/pre-supplementation testing) to end of the study (post-supplementation testing which takes place after 7 days of supplementation period)"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Rating of Perceived Exertion",
+       "description": "The Rating of Perceived Exertion (RPE) will be used as a subjective measure of fatigue. Immediately after maximum breath-hold exercise attempt, participants will report their perceived level of effort using the Borg Scale. They will provide separate ratings for overall breath-hold effort and for muscle strain.",
+       "timeFrame": "From enrollment to study (baseline/pre-supplementation testing) to end of the study (post-supplementation testing which takes place after 7 days of supplementation period)"
+      },
+      {
+       "measure": "Change in Lean Body Mass",
+       "description": "Lean Body Mass change will be assessed by DXA scan.",
+       "timeFrame": "From enrollment to study (baseline/pre-supplementation testing) to end of the study (post-supplementation testing which takes place after 7 days of supplementation period)"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* healthy trained breath-hold divers (with at least one year of experience in dynamic breath-hold diving training and competition) who haven't been supplementing with creatine monohydrate for at least the past 6 weeks prior to the start of the study\n\nExclusion Criteria:\n\n* breath-hold divers with less than 1 year of experience in dynamic breath-hold training and competition\n* breath-hold divers with any acute or chronic medical conditions\n* breath-hold divers that supplement with creatine monohydrate or have been supplementing with creatine monohydrate in the past 6 weeks",
+     "healthyVolunteers": true,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "referencesModule": {
+     "references": [
+      {
+       "pmid": "11072779",
+       "type": "BACKGROUND",
+       "citation": "Nelson AG, Day R, Glickman-Weiss EL, Hegsted M, Kokkonen J, Sampson B. Creatine supplementation alters the response to a graded cycle ergometer test. Eur J Appl Physiol. 2000 Sep;83(1):89-94. doi: 10.1007/s004210000244."
+      },
+      {
+       "pmid": "9721002",
+       "type": "BACKGROUND",
+       "citation": "McNaughton LR, Dalton B, Tarr J. The effects of creatine supplementation on high-intensity exercise performance in elite performers. Eur J Appl Physiol Occup Physiol. 1998 Aug;78(3):236-40. doi: 10.1007/s004210050413."
+      },
+      {
+       "pmid": "38747788",
+       "type": "BACKGROUND",
+       "citation": "Furtado ETF, Oliveira JPL, Pereira ISB, Veiga EP, Silva SFD, Abreu WC. Short term creatine loading improves strength endurance even without changing maximal strength, RPE, fatigue index, blood lactate, and mode state. An Acad Bras Cienc. 2024 May 10;96(2):e20230559. doi: 10.1590/0001-3765202420230559. eCollection 2024."
+      },
+      {
+       "pmid": "32408412",
+       "type": "BACKGROUND",
+       "citation": "Lee S, Hong G, Park W, Lee J, Kim N, Park H, Park J. The effect of short-term creatine intake on blood lactic acid and muscle fatigue measured by accelerometer-based tremor response to acute resistance exercise. Phys Act Nutr. 2020 Mar 31;24(1):29-36. doi: 10.20463/pan.2020.0006."
+      },
+      {
+       "pmid": "23164647",
+       "type": "BACKGROUND",
+       "citation": "Oliver JM, Joubert DP, Martin SE, Crouse SF. Oral creatine supplementation's decrease of blood lactate during exhaustive, incremental cycling. Int J Sport Nutr Exerc Metab. 2013 Jun;23(3):252-8. doi: 10.1123/ijsnem.23.3.252. Epub 2012 Nov 19."
+      },
+      {
+       "pmid": "19885119",
+       "type": "BACKGROUND",
+       "citation": "Goodwin ML, Harris JE, Hernandez A, Gladden LB. Blood lactate measurements and analysis during exercise: a guide for clinicians. J Diabetes Sci Technol. 2007 Jul;1(4):558-69. doi: 10.1177/193229680700100414."
+      },
+      {
+       "pmid": "1324108",
+       "type": "BACKGROUND",
+       "citation": "Hirvonen J, Nummela A, Rusko H, Rehunen S, Harkonen M. Fatigue and changes of ATP, creatine phosphate, and lactate during the 400-m sprint. Can J Sport Sci. 1992 Jun;17(2):141-4."
+      },
+      {
+       "pmid": "29571233",
+       "type": "BACKGROUND",
+       "citation": "RodrIguez-Zamora L, Engan HK, Lodin-Sundstrom A, Schagatay F, Iglesias X, Rodriguez FA, Schagatay E. Blood lactate accumulation during competitive freediving and synchronized swimming. Undersea Hyperb Med. 2018 Jan-Feb;45(1):55-63."
+      },
+      {
+       "pmid": "22817979",
+       "type": "BACKGROUND",
+       "citation": "Cooper R, Naclerio F, Allgrove J, Jimenez A. Creatine supplementation with specific view to exercise/sports performance: an update. J Int Soc Sports Nutr. 2012 Jul 20;9(1):33. doi: 10.1186/1550-2783-9-33."
+      },
+      {
+       "pmid": "37096381",
+       "type": "BACKGROUND",
+       "citation": "Forbes SC, Candow DG, Neto JHF, Kennedy MD, Forbes JL, Machado M, Bustillo E, Gomez-Lopez J, Zapata A, Antonio J. Creatine supplementation and endurance performance: surges and sprints to win the race. J Int Soc Sports Nutr. 2023 Dec;20(1):2204071. doi: 10.1080/15502783.2023.2204071."
+      },
+      {
+       "pmid": "42868132",
+       "type": "DERIVED",
+       "citation": "Kurmazovic N, Nomikos T, Adamakis M, Forbes SC, Arnaoutis G, Djordjevic B, Todorovic V, Kritsiligkos P. Load and breath-hold: impact of 7-day creatine monohydrate loading on breath-hold exercise performance - a double-blind randomized controlled trial. J Int Soc Sports Nutr. 2026 Dec 31;23(sup1):2732743. doi: 10.1080/15502783.2026.2732743. Epub 2026 Oct 13."
+      }
+     ]
+    }
+   },
+   "hasResults": false
+  }
+ ]
+}

@@ -58,6 +58,9 @@ export const PipelineConfig = z
           requestsPerSecondWithoutKey: z.number().positive().max(3),
           requestsPerSecondWithKey: z.number().positive().max(10),
           maxResultsPerQuery: positiveInt.max(100),
+          esearchPageSize: positiveInt.max(100),
+          /** IDs per efetch request (bounded batch). */
+          efetchBatchSize: positiveInt.max(100),
           lookbackDays: positiveInt.max(60),
         }),
         clinicaltrials: z.object({
@@ -65,7 +68,10 @@ export const PipelineConfig = z
           minSecondsBetweenRequests: z.number().min(0.5),
           pageSize: positiveInt.max(100),
           maxPagesPerQuery: positiveInt.max(10),
+          lookbackDays: positiveInt.max(60),
         }),
+        /** Stop creating candidates after this many in one run; the rest wait for the next run. */
+        maxNewCandidatesPerRun: positiveInt.max(200),
         requestTimeoutSeconds: positiveInt.max(120),
         maxTransientRetries: z.number().int().min(0).max(2),
       })

@@ -1,0 +1,637 @@
+{
+ "totalCount": 125,
+ "studies": [
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT07914270",
+     "orgStudyIdInfo": {
+      "id": "2026-FIS-4574602"
+     },
+     "organization": {
+      "fullName": "University of Valencia",
+      "class": "OTHER"
+     },
+     "briefTitle": "Aquatic Power Training Dosing Strategies and Creatine Supplementation in Older Adults",
+     "officialTitle": "Optimization of Aquatic Power Training Dosing Strategies and the Effects of Creatine Supplementation on Functional and Multisystem Adaptations in Older Adults: A Randomized Controlled Trial"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2026-10",
+     "overallStatus": "RECRUITING",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2026-10-15",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2027-04-30",
+      "type": "ESTIMATED"
+     },
+     "completionDateStruct": {
+      "date": "2027-05-15",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2026-10-27",
+     "studyFirstSubmitQcDate": "2026-10-27",
+     "studyFirstPostDateStruct": {
+      "date": "2026-11-03",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-27",
+     "lastUpdatePostDateStruct": {
+      "date": "2026-11-03",
+      "type": "ACTUAL"
+     }
+    },
+    "descriptionModule": {
+     "briefSummary": "This randomized controlled trial will investigate the effects of different aquatic power training dosing strategies and creatine supplementation on functional and multisystem adaptations in community-dwelling older adults.\n\nParticipants will be randomly allocated to one of five parallel groups: (1) aquatic power training regulated according to rating of perceived exertion during the first repetition (RPE-1) plus placebo; (2) aquatic power training using a conventional time-based dosing strategy plus placebo; (3) time-based aquatic power training plus creatine supplementation; (4) sedentary control plus placebo; or (5) sedentary control plus creatine supplementation.\n\nThe intervention will last 16 weeks. Aquatic training will be performed three times per week for approximately 60 minutes per session. Participants allocated to creatine supplementation will receive 3 g/day of creatine monohydrate, whereas the corresponding placebo groups will receive a visually indistinguishable placebo following the same supplementation schedule.\n\nThe primary outcomes will assess body composition, muscle strength, and functional capacity. Additional outcomes will examine bone health, cardiometabolic health, inflammatory and oxidative stress biomarkers, immune function, neurobiological and cognitive function, quality of life, sleep quality, psychological status, fatigue, and affective state.\n\nAssessments will be performed before and after the 16-week intervention.",
+     "detailedDescription": "Participants will be randomly allocated to one of five parallel groups and will complete a 16-week intervention period. The study is designed to evaluate two complementary research questions: (1) whether an aquatic power training program regulated using rating of perceived exertion during the first repetition (RPE-1) produces different adaptations compared with a conventional time-based aquatic power training strategy; and (2) whether daily creatine supplementation enhances the adaptations associated with aquatic power training and/or modifies outcomes in sedentary older adults.\n\n\\*\\*Aquatic Power Training\\*\\*\n\nParticipants allocated to either aquatic training condition will complete a 16-week supervised aquatic power training program consisting of three sessions per week, with each session lasting approximately 60 minutes.\n\nThe exercise program will focus on the development of muscular power using aquatic exercise. The two training conditions will follow the same overall intervention period and training frequency but will differ in the strategy used to regulate exercise dosage.\n\nIn the \\*\\*RPE-1 aquatic power training condition\\*\\*, exercise dosage will be regulated according to the participant's rating of perceived exertion during the first repetition (RPE-1). This strategy will be used to individualize and regulate the exercise stimulus during the training program.\n\nIn the \\*\\*time-based aquatic power training condition\\*\\*, exercise dosage will be prescribed using a conventional time-based strategy. Participants will therefore perform the aquatic power training according to the predefined temporal prescription rather than using RPE-1 to regulate exercise dosage.\n\nAquatic training sessions will be conducted under supervision at the Piscina Cubierta de Benim\u00e0met (Fundaci\u00f3n Deportiva Municipal, Valencia, Spain).\n\n\\*\\*Creatine and Placebo Supplementation\\*\\*\n\nParticipants assigned to creatine supplementation will receive \\*\\*3 g/day of creatine monohydrate\\*\\* throughout the 16-week intervention. Supplementation will be taken daily, including non-training days, and no loading phase will be used.\n\nParticipants assigned to placebo supplementation will receive a visually indistinguishable placebo following the same daily supplementation schedule.\n\nCreatine and placebo supplementation will be administered under double-blind conditions. Neither participants nor investigators responsible for supplementation administration will know the supplementation allocation until completion of the study.\n\n\\*\\*Study Groups\\*\\*\n\nParticipants will be randomly allocated to one of the following five groups:\n\n1. \\*\\*RPE-1 Aquatic Power Training + Placebo:\\*\\* 16 weeks of aquatic power training, three sessions per week, with exercise dosage regulated according to RPE-1, combined with daily placebo supplementation.\n2. \\*\\*Time-Based Aquatic Power Training + Placebo:\\*\\* 16 weeks of aquatic power training, three sessions per week, using a conventional time-based dosing strategy, combined with daily placebo supplementation.\n3. \\*\\*Time-Based Aquatic Power Training + Creatine:\\*\\* 16 weeks of aquatic power training, three sessions per week, using the conventional time-based dosing strategy, combined with 3 g/day of creatine monohydrate.\n4. \\*\\*Sedentary Control + Placebo:\\*\\* Participants will not participate in the aquatic power training intervention and will receive placebo supplementation daily throughout the 16-week study period.\n5. \\*\\*Sedentary Control + Creatine:\\*\\* Participants will not participate in the aquatic power training intervention and will receive 3 g/day of creatine monohydrate throughout the 16-week study period.\n\nParticipants allocated to the sedentary control conditions will be instructed to maintain their usual lifestyle during the intervention period and not to initiate a structured moderate- or high-intensity strength or power training program.\n\n\\*\\*Assessment Schedule\\*\\*\n\nOutcome assessments will be performed before the intervention and immediately after completion of the 16-week intervention. Assessments will include body composition, muscle strength, functional capacity, bone metabolism, cardiometabolic health, inflammatory and oxidative stress biomarkers, immune function, neurobiological and cognitive function, quality of life, sleep quality, psychological status, fatigue, affective state, and clinical safety measures.\n\nQuestionnaires and cognitive assessments will be administered in person and distributed across two assessment sessions at each evaluation period to reduce participant fatigue.\n\nBecause of the nature of the exercise intervention, participants and personnel supervising the training cannot be blinded to the aquatic power training dosing strategy. However, outcome assessors and investigators responsible for statistical analyses will remain blinded to group allocation."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Aging",
+      "Supplementation",
+      "Exercise"
+     ],
+     "keywords": [
+      "older adults",
+      "Nutritional Supplement",
+      "Aquatic training",
+      "Power training",
+      "Healthy aging",
+      "Non-Pharmacological intervention",
+      "Randomized controlled trial"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "NA"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "primaryPurpose": "PREVENTION",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "OUTCOMES_ASSESSOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 100,
+      "type": "ESTIMATED"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Arm 1 - RPE-1 Aquatic Power Training + Placebo",
+       "type": "EXPERIMENTAL",
+       "description": "Participants will complete a 16-week aquatic power training program, three sessions per week, with each session lasting approximately 60 minutes. Training intensity will be regulated according to the participant's rating of perceived exertion during the first repetition (RPE-1). Participants will receive placebo supplementation daily throughout the 16-week intervention.",
+       "interventionNames": [
+        "Other: RPE-1 Aquatic Power Training-Placebo"
+       ]
+      },
+      {
+       "label": "Arm 2 - Time-Based Aquatic Power Training + Placebo",
+       "type": "ACTIVE_COMPARATOR",
+       "description": "Participants will complete a 16-week aquatic power training program, three sessions per week, with each session lasting approximately 60 minutes. Exercise dosing will follow a conventional strategy based on work duration. Participants will receive placebo supplementation daily throughout the intervention.",
+       "interventionNames": [
+        "Other: Time-Based Aquatic Power Training-Placebo"
+       ]
+      },
+      {
+       "label": "Arm 3 - Time-Based Aquatic Power Training + Creatine",
+       "type": "ACTIVE_COMPARATOR",
+       "description": "Participants will complete the same 16-week time-based aquatic power training program and will receive 3 g/day of creatine monohydrate throughout the intervention, including non-training days.",
+       "interventionNames": [
+        "Dietary Supplement: Time-Based Aquatic Power Training + Creatine"
+       ]
+      },
+      {
+       "label": "Arm 4 - Sedentary Control + Placebo",
+       "type": "PLACEBO_COMPARATOR",
+       "description": "Participants allocated to the sedentary control group will not participate in the aquatic power training program and will receive placebo supplementation daily throughout the 16-week intervention.",
+       "interventionNames": [
+        "Dietary Supplement: Sedentary Control + Placebo"
+       ]
+      },
+      {
+       "label": "Arm 5 - Sedentary Control + Creatine",
+       "type": "EXPERIMENTAL",
+       "description": "Participants allocated to the sedentary control group will not participate in the aquatic power training program and will receive 3 g/day of creatine monohydrate throughout the 16-week intervention.",
+       "interventionNames": [
+        "Dietary Supplement: Sedentary Control + Creatine"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "OTHER",
+       "name": "RPE-1 Aquatic Power Training-Placebo",
+       "description": "Participants will complete a 16-week supervised aquatic power training program, consisting of three sessions per week, with each session lasting approximately 60 minutes. Exercises will be performed at maximal intended movement velocity.\n\nFor each exercise, participants will perform 4 sets of 8 repetitions. Exercise intensity will be regulated using ratings of perceived exertion (RPE) obtained during the set. During the first repetition (RPE-1), the target RPE will be 4 for the active muscles or 3 for the overall body. By the last repetition of the set, the target RPE will be 6 for the active muscles or 5 for the overall body.\n\nParticipants will perform active recovery for 120 seconds between sets and 90 seconds between exercises.\n\nThis RPE-based dosing strategy will be used to individualize the aquatic power training stimulus according to each participant's perceived exertion while maintaining maximal intended movement velocity.",
+       "armGroupLabels": [
+        "Arm 1 - RPE-1 Aquatic Power Training + Placebo"
+       ]
+      },
+      {
+       "type": "OTHER",
+       "name": "Time-Based Aquatic Power Training-Placebo",
+       "description": "Participants will complete a 16-week supervised aquatic power training program, consisting of three sessions per week, with each session lasting approximately 60 minutes. Exercises will be performed at maximal intended movement velocity.\n\nThe training structure will follow the same general protocol as the RPE-1 aquatic power training condition. However, instead of prescribing exercise volume according to a fixed number of repetitions regulated by RPE-1, participants will perform each exercise for an execution time equivalent to that required to complete the RPE-1 protocol.\n\nParticipants will be instructed to perform the exercises at maximal intended movement velocity throughout the prescribed execution period. The maximu\n\nParticipants will receive a placebo visually indistinguishable from the creatine supplement. The placebo will be administered daily throughout the 16-week intervention, including non-training days, following the same supplementation schedule as the creatine condition.",
+       "armGroupLabels": [
+        "Arm 2 - Time-Based Aquatic Power Training + Placebo"
+       ]
+      },
+      {
+       "type": "DIETARY_SUPPLEMENT",
+       "name": "Time-Based Aquatic Power Training + Creatine",
+       "description": "Participants will complete a 16-week supervised aquatic power training program, consisting of three sessions per week, with each session lasting approximately 60 minutes. Exercises will be performed at maximal intended movement velocity.\n\nThe training structure will follow the same general protocol as the RPE-1 aquatic power training condition. However, instead of prescribing exercise volume according to a fixed number of repetitions regulated by RPE-1, participants will perform each exercise for an execution time equivalent to that required to complete the RPE-1 protocol.\n\nParticipants will be instructed to perform the exercises at maximal intended movement velocity throughout the prescribed execution period. The maxi\n\nParticipants will additionally receive 3 g/day of creatine monohydrate throughout the 16-week intervention. Participants will receive 3 g/day of creatine monohydrate for 16 weeks. Creatine will be administered daily, including non-training days, without a loading phase.",
+       "armGroupLabels": [
+        "Arm 3 - Time-Based Aquatic Power Training + Creatine"
+       ]
+      },
+      {
+       "type": "DIETARY_SUPPLEMENT",
+       "name": "Sedentary Control + Placebo",
+       "description": "Participants allocated to this group will not participate in the aquatic power training intervention and will receive placebo supplementation daily throughout the 16-week study period. Participants will be instructed to maintain their usual lifestyle and habitual physical activity and not to initiate a structured moderate- or high-intensity strength or power training program during the intervention period. Participants will receive a placebo visually indistinguishable from the creatine supplement. The placebo will be administered daily throughout the 16-week intervention following the same supplementation schedule as the creatine condition.",
+       "armGroupLabels": [
+        "Arm 4 - Sedentary Control + Placebo"
+       ]
+      },
+      {
+       "type": "DIETARY_SUPPLEMENT",
+       "name": "Sedentary Control + Creatine",
+       "description": "Participants allocated to this group will not participate in the aquatic power training intervention and will receive 3 g/day of creatine monohydrate throughout the 16-week study period. Participants will be instructed to maintain their usual lifestyle and habitual physical activity and not to initiate a structured moderate- or high-intensity strength or power training program during the intervention period.",
+       "armGroupLabels": [
+        "Arm 5 - Sedentary Control + Creatine"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Change in Body Composition via Dual-Energy X-ray Absorptiometry (DXA)",
+       "description": "Whole body and segmental composition will be assessed through Dual-Energy X-ray Absorptiometry (DXA). Parameters analyzed will be: total and regional fat mass and lean mass and % of fat mass.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in handgrip strength",
+       "description": "Handgrip strength (Kg) will be assessed using hand-held dynamometry. Higher values indicate greater muscle strength",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in lower limb Isokinetic muscle strength",
+       "description": "knee flexo-extension muscle strength will be assessed using an isokinetic dynamometer (Biodex\u00ae) at an angular velocity of 180\u00b0/s. Peak torque will be recorded in Newton-meters (Nm), with higher values indicating greater strength",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in upper limb Isokinetic muscle Strength",
+       "description": "Elbow flexo-extension muscle strength will be assessed using an isokinetic dynamometer (Biodex\u00ae) at an angular velocity of 180\u00b0/s. Peak torque will be recorded in Newton-meters (Nm), with higher values indicating greater strength",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in functional mobility and agility performance",
+       "description": "Functional mobility and agility will be assessed using the Timed Up and Go Test. The time required to stand from a chair, walk the standardized distance, turn, return, and sit down will be recorded in seconds. Lower values indicate better functional performance.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in lower body functional performance",
+       "description": "Lower-body functional capacity (resistance strength) will be assessed using the 30-Second Chair Stand Test. The number of complete sit-to-stand repetitions performed within 30 seconds will be recorded. Higher values indicate better functional performance.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in aerobic performance",
+       "description": "Functional aerobic capacity will be assessed using the 6-Minute Walk Test. The total distance walked during six minutes will be recorded in meters. Higher values indicate better functional capacity.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Change in bone health (bone formation)",
+       "description": "Serum procollagen type I N-terminal propeptide (P1NP) will be measured as a marker of bone formation.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in bone health (bone resorption)",
+       "description": "Serum C-terminal telopeptide of type I collagen (\u03b2-CTX) will be measured as a marker of bone resorption",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in cardiometabolic health (systolic blood pressure)",
+       "description": "Resting systolic blood pressure will be assessed and expressed in millimeters of mercury (mmHg), with lower values generally indicating lower cardiovascular risk.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in cardiometabolic health (diastolic blood pressure)",
+       "description": "Resting diastolic blood pressure will be assessed and expressed in millimeters of mercury (mmHg), with lower values generally indicating lower cardiovascular risk.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in metabolic biomarkers (total cholesterol)",
+       "description": "Total cholesterol levels will be collected through a blood sample in the morning in a fasted state to assess metabolic state.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in metabolic biomarkers (HDL cholesterol)",
+       "description": "HDL cholesterol levels will be collected through a blood sample in the morning in a fasted state to assess metabolic state.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in metabolic biomarkers (LDL cholesterol)",
+       "description": "LDL cholesterol levels will be collected through a blood sample in the morning in a fasted state to assess metabolic state.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in metabolic biomarkers (Triglycerides)",
+       "description": "Triglycerides levels will be collected through a blood sample in the morning in a fasted state to assess metabolic state.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in metabolic biomarkers (fasting plasma glucose)",
+       "description": "Fasting plasma glucose concentration will be measured from blood samples collected after an overnight fasting period to assess changes in glucose homeostasis and metabolic state",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in metabolic biomarkers (GLP-1 Concentration)",
+       "description": "Circulating glucagon-like peptide-1 (GLP-1) concentration will be measured from blood samples to assess changes in this gut-derived metabolic hormone involved in glucose regulation",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in inflammation biomarkers (Interleukin-6 Concentration)",
+       "description": "Circulating interleukin-6 (IL-6) concentration will be measured from blood samples as a biomarker of systemic low-grade inflammation.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in inflammation biomarkers (Tumor Necrosis Factor-Alpha Concentration)",
+       "description": "Circulating tumor necrosis factor-alpha (TNF-\u03b1) will be measured from blood samples as a biomarker of systemic low-grade inflammation.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in Oxidative stress biomarkers (F2-Isoprostane Concentration)",
+       "description": "F2-isoprostanes will be measured from blood samples as biomarkers of oxidative stress and lipid peroxidation.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in Oxidative stress biomarkers (Glutathione Peroxidase Activity)",
+       "description": "Glutathione peroxidase (GPx) activity will be measured from blood samples as a marker of antioxidant defense.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in Immune system (Total Leukocyte Count)",
+       "description": "Total circulating leukocyte count will be measured from peripheral blood samples to assess changes in overall immune cell status",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in Immune system (Neutrophil Count)",
+       "description": "Circulating neutrophil count will be measured from peripheral blood samples to assess changes in the neutrophil component of the immune response",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in Immune system (Lymphocyte Count)",
+       "description": "Circulating lymphocyte count will be measured from peripheral blood samples to assess changes in the lymphocyte component of immune function",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in Immune system (Monocyte Count)",
+       "description": "Circulating monocyte count will be measured from peripheral blood samples to assess changes in this component of the innate immune system",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in Immune system (Eosinophil Count)",
+       "description": "Circulating eosinophil count will be measured from peripheral blood samples to assess changes in this leukocyte population",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in Immune system (Basophil Count)",
+       "description": "Circulating basophil count will be measured from peripheral blood samples to assess changes in this leukocyte population",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in Immune system (Platelet Count)",
+       "description": "Circulating platelet count will be measured from peripheral blood samples to assess changes in platelet levels",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in Immune system (Neutrophil-to-Lymphocyte Ratio)",
+       "description": "The neutrophil-to-lymphocyte ratio (NLR) will be calculated by dividing the absolute neutrophil count by the absolute lymphocyte count. NLR will be used as an integrated hematological marker of systemic inflammatory and immune status.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in Immune system (Systemic Immune-Inflammation Index )",
+       "description": "The Systemic Immune-Inflammation Index (SII) will be calculated from peripheral blood platelet, neutrophil, and lymphocyte counts as an integrated marker of systemic immune-inflammatory status.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in Neurobiological function (Brain-Derived Neurotrophic Factor concentration)",
+       "description": "Circulating brain-derived neurotrophic factor (BDNF) concentration will be measured from blood samples to assess changes in a neurotrophic factor involved in neuronal function and neuroplasticity .",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in Cognitive function (Trail Making Test Part A Completion Time)",
+       "description": "Cognitive performance will be assessed using the Trail Making Test Part A (TMT-A), which primarily evaluates visual attention, processing speed, and visuomotor tracking. Participants will be instructed to connect numbered targets sequentially as quickly and accurately as possible. Completion time will be recorded in seconds, with lower completion times indicating better performance.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in Cognitive function (Trail Making Test Part B Completion Time)",
+       "description": "Executive and attentional performance will be assessed using the Trail Making Test Part B (TMT-B), which requires participants to alternate sequentially between numbered and lettered targets. The test primarily assesses cognitive flexibility, set-shifting, divided attention, and executive function. Completion time will be recorded in seconds, with lower completion times indicating better performance.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      }
+     ],
+     "otherOutcomes": [
+      {
+       "measure": "Change in WHOQOL-OLD Score",
+       "description": "Quality of life in older adults will be assessed using the World Health Organization Quality of Life-OLD (WHOQOL-OLD) questionnaire, which evaluates relevant dimensions of quality of life specifically related to older populations. Changes in questionnaire scores will be used to assess the effect on perceived quality of life.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in Health-Related Quality of Life Assessed by the EQ-5D-5L",
+       "description": "Health-related quality of life will be assessed using the EuroQol 5-Dimension 5-Level (EQ-5D-5L) questionnaire. The instrument evaluates health status across five dimensions: mobility, self-care, usual activities, pain/discomfort, and anxiety/depression. Changes in EQ-5D-5L health status will be used to assess the effect on perceived health-related quality of life.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in Pittsburgh Sleep Quality Index Score",
+       "description": "Sleep quality will be assessed using the Pittsburgh Sleep Quality Index (PSQI), which evaluates different aspects of sleep over the preceding month. Changes in the global PSQI score will be used to assess sleep quality, with higher scores indicating poorer sleep quality",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in Depressive symptoms",
+       "description": "Depressive symptoms will be assessed using the 9-item Patient Health Questionnaire (PHQ-9). Changes in the total score will be used to assess depressive symptom severity, with higher scores indicating greater severity of depressive symptoms.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in Fatigue",
+       "description": "Fatigue will be assessed using the 10-item Fatigue Assessment Scale (FAS). Each item is rated on a five-point response scale ranging from 1 (never) to 5 (always). Changes in the total FAS score will be used to assess perceived fatigue, with higher scores indicating greater fatigue.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in Affective State",
+       "description": "Positive affect will be assessed using the Positive Affect subscale of the Positive and Negative Affect Schedule (PANAS). The PANAS comprises 20 affect-related items rated on a five-point response scale. Changes in the Positive Affect subscale score will be used to assess changes in positive emotional state, with higher scores indicating greater positive affect.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in Serum Creatinine",
+       "description": "Serum creatinine concentration will be assessed as a clinical safety marker related to renal function.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in Alanine Aminotransferase",
+       "description": "Serum alanine aminotransferase (ALT) concentration will be assessed as a clinical safety marker related to liver function.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Change in Aspartate Aminotransferase",
+       "description": "Serum aspartate aminotransferase (AST) concentration will be assessed as a clinical safety marker related to liver function.",
+       "timeFrame": "Pre and post-intervention of 16 weeks"
+      },
+      {
+       "measure": "Incidence of Adverse Events",
+       "description": "Adverse events potentially associated with the aquatic exercise intervention or creatine/placebo supplementation will be recorded and clinically evaluated throughout the intervention period.",
+       "timeFrame": "Throughout the 16-week intervention."
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age \u226560 years at enrollment.\n2. Community-dwelling and functionally independent in basic activities of daily living.\n3. Able to ambulate independently, with or without usual assistive devices, and able to safely perform the physical assessments included in the study.\n4. Clinically stable; participants with chronic diseases must have maintained stable pharmacological treatment for at least three months before the intervention.\n5. Not currently participating in a structured moderate- or high-intensity strength or power training program or another systematic supervised exercise program.\n6. Available and willing to participate throughout the 16-week intervention and complete all scheduled assessments.\n7. Willing to accept random allocation to any study group and creatine or placebo supplementation when applicable.\n8. Willing to maintain stable dietary habits throughout the intervention.\n9. Able and willing to provide written informed consent\n\nExclusion Criteria:\n\n1. Uncontrolled cardiovascular, respiratory, metabolic, neurological, or musculoskeletal disease contraindicating exercise or limiting safe participation.\n2. Unfavorable medical assessment for participation in supervised exercise.\n3. Uncontrolled hypertension at screening.\n4. Known kidney disease, renal failure, or clinically relevant impairment of renal function.\n5. Active liver disease or clinically relevant impairment of liver function.\n6. Active malignant neoplasm or current cancer treatment.\n7. Endocrine or metabolic disorders considered by the research team to substantially interfere with the study's primary outcomes.\n8. Current use, or use during the previous three months, of creatine or other supplements with potential ergogenic or anabolic effects.\n9. Pharmacological treatment considered likely to substantially modify the study's primary outcomes.\n10. Participation during the previous three months in a systematic moderate- or high-intensity strength or power training program.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "60 Years",
+     "maximumAge": "99 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT07213063",
+     "orgStudyIdInfo": {
+      "id": "CreatineSDown."
+     },
+     "organization": {
+      "fullName": "Universidad de Burgos",
+      "class": "OTHER"
+     },
+     "briefTitle": "Effects of Chronic Creatine and Beta-Hydroxy-Beta-Methylbutyrate Supplementation on Oxidative Stress, Inflammation, Muscle Strength, and Body Composition in Individuals With Down Syndrome",
+     "officialTitle": "Effects of Chronic Creatine and Beta-Hydroxy-Beta-Methylbutyrate Supplementation on Oxidative Stress, Inflammation, Muscle Strength, and Body Composition in Individuals With Down Syndrome"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2026-10",
+     "overallStatus": "COMPLETED",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2025-09-15",
+      "type": "ACTUAL"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2026-04-30",
+      "type": "ACTUAL"
+     },
+     "completionDateStruct": {
+      "date": "2026-04-30",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-10-01",
+     "studyFirstSubmitQcDate": "2025-10-01",
+     "studyFirstPostDateStruct": {
+      "date": "2025-10-08",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-29",
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-30",
+      "type": "ACTUAL"
+     }
+    },
+    "descriptionModule": {
+     "briefSummary": "Purpose:\n\nThis study will test whether 8 weeks of creatine and HMB supplementation can improve muscle strength, body composition, balance, and overall health in people with Down syndrome. Participants will also receive nutrition tips during the study.\n\nWho can participate:\n\nPeople with Down syndrome who can perform basic physical tasks. Must provide consent from the participant and legal guardian.\n\nWhat participants will do:\n\nTake creatine (3 g/day) and HMB (3 g/day) or placebo for 8 weeks. Complete tests for muscle strength, balance, and cognitive function. Undergo body composition scans and give blood samples for health markers.\n\nTiming:\n\nAll tests and blood samples are taken before and after each 8-week period.\n\nImportance:\n\nResults will help determine if creatine and HMB can safely improve strength, balance, and overall health in people with Down syndrome.",
+     "detailedDescription": "This study is an 8-week randomized, placebo-controlled, crossover trial designed to evaluate the effects of daily supplementation with creatine monohydrate (3 g) and beta-hydroxy-beta-methylbutyrate (HMB, 3 g) on body composition, muscle strength, balance, cognitive function, and biomarkers of oxidative stress and inflammation in individuals with Down syndrome. Participants will receive nutritional education throughout the intervention to support a balanced diet.\n\nPrimary outcomes include lean mass measured by dual-energy X-ray absorptiometry (DXA).\n\nSecondary outcomes include fat-free mass (bioimpedance), bone mineral density (DXA), handgrip strength, lower limb strength (Five Times Sit-to-Stand Test), upper and lower body isometric strength (K-Pull test), balance (4-Stage Balance Test), and cognitive function assessed by the Timed Up and Go Dual Task. Blood biomarkers of oxidative stress and inflammation, including reduced glutathione (GSH), superoxide dismutase (SOD), C-reactive protein (CRP), interleukins (IL-1, IL-6, IL-7), and tumor necrosis factor-alpha (TNF-\u03b1), will be assessed before and after each supplementation period.\n\nAll assessments will be performed at baseline and at the end of each 8-week supplementation phase, allowing for evaluation of both physiological and functional responses to creatine and HMB supplementation in this population."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Down Syndrome (DS)",
+      "Supplementation"
+     ],
+     "keywords": [
+      "creatine",
+      "down syndrome",
+      "bone mineral health"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "NA"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "primaryPurpose": "PREVENTION",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 32,
+      "type": "ACTUAL"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Placebo",
+       "type": "ACTIVE_COMPARATOR",
+       "description": "Participants will receive placebo supplementation",
+       "interventionNames": [
+        "Other: Nutrition education",
+        "Dietary Supplement: Placebo"
+       ]
+      },
+      {
+       "label": "Supplementation",
+       "type": "EXPERIMENTAL",
+       "description": "Participants will receive creatine monohydrate and beta-hydroxy-beta-methylbutyrate supplementation",
+       "interventionNames": [
+        "Other: Nutrition education",
+        "Dietary Supplement: Supplement"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "OTHER",
+       "name": "Nutrition education",
+       "description": "Participants and their families will also take part in nutrition education sessions to promote healthy eating and lifestyle habits.",
+       "armGroupLabels": [
+        "Placebo",
+        "Supplementation"
+       ]
+      },
+      {
+       "type": "DIETARY_SUPPLEMENT",
+       "name": "Supplement",
+       "description": "Supplementation with 3 g/day of creatine monohydrate abd 3 g/day of beta-hydroxy-beta-methylbutyrate for 8 weeks",
+       "armGroupLabels": [
+        "Supplementation"
+       ]
+      },
+      {
+       "type": "DIETARY_SUPPLEMENT",
+       "name": "Placebo",
+       "description": "Supplementation with 6 g/day of inulin orally for 8 weeks",
+       "armGroupLabels": [
+        "Placebo"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Lean mass",
+       "description": "Lean mass (kg) will be evaluated using dual-energy X-ray absorptiometry (DXA): GE Lunar Prodigy DXA device (GE Healthcare, Madison, WI, USA; Encore software version).",
+       "timeFrame": "Baseline (within 2 days before starting supplementation) and at 8 weeks (end of supplementation)"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Handgrip strength",
+       "description": "Handgrip strength (kg) will be assessed using a handgrip dynamometer.",
+       "timeFrame": "Baseline (within 2 days before starting supplementation) and at 8 weeks (end of supplementation)"
+      },
+      {
+       "measure": "Bone mineral density",
+       "description": "Total bone mineral density (g/cm2) will be evaluated using dual-energy X-ray absorptiometry (DXA): GE Lunar Prodigy DXA device (GE Healthcare, Madison, WI, USA; Encore software version).",
+       "timeFrame": "Baseline (within 2 days before starting supplementation) and at 8 weeks (end of supplementation)"
+      },
+      {
+       "measure": "Reduced glutathione (GSH).",
+       "description": "Blood samples will be collected to assess levels of reduced glutathione (GSH).",
+       "timeFrame": "Baseline (within 2 days before starting supplementation) and at 8 weeks (end of supplementation)"
+      },
+      {
+       "measure": "C-reactive protein (CRP)",
+       "description": "Blood samples will be collected to assess levels of inflammation including C-reactive protein (CRP).",
+       "timeFrame": "Baseline (within 2 days before starting supplementation) and at 8 weeks (end of supplementation)"
+      },
+      {
+       "measure": "Superoxide dismutase (SOD) activity.",
+       "description": "Blood samples will be collected to assess levels of superoxide dismutase (SOD) activity.",
+       "timeFrame": "Baseline (within 2 days before starting supplementation) and at 8 weeks (end of supplementation)"
+      },
+      {
+       "measure": "Blood levels of interleukins (IL-1, IL-6, IL-7).",
+       "description": "Blood samples will be collected to assess levels of interleukins (IL-1, IL-6, IL-7).",
+       "timeFrame": "Baseline (within 2 days before starting supplementation) and at 8 weeks (end of supplementation)"
+      },
+      {
+       "measure": "Tumor necrosis factor-alpha (TNF-\u03b1).",
+       "description": "Blood samples will be collected to assess levels of tumor necrosis factor-alpha (TNF-\u03b1).",
+       "timeFrame": "Baseline (within 2 days before starting supplementation) and at 8 weeks (end of supplementation)"
+      },
+      {
+       "measure": "Fat-free mass",
+       "description": "Fat free mass (kg) will be analysed using bioimpedance: InBody S10.",
+       "timeFrame": "Baseline (within 2 days before starting supplementation) and at 8 weeks (end of supplementation)"
+      },
+      {
+       "measure": "Lower limb strength",
+       "description": "Lower limb strength will be assessed using the Five Times Sit-to-Stand Test (5xSTS), which involved recording the time taken to rise from a 45 cm highchair five times as quickly as possible without using the arms for support.",
+       "timeFrame": "Baseline (within 2 days before starting supplementation) and at 8 weeks (end of supplementation)"
+      },
+      {
+       "measure": "Balance",
+       "description": "Balance will be using the 4-Stage Balance Test. It involves holding four progressively difficult positions for at least 10 seconds each:\n\nFeet together: 1 point if the position is held for 10 seconds or more. Partial semi-tandem: 1 point if the position is held for 10 seconds or more.\n\nSemi-tandem:\n\n* 2 points: If the position is held for more than 10 seconds.\n* 1 point: If the position is held for between 3 and 9.99 seconds.\n* 0 points: If the position is held for less than 3 seconds. The score ranges from 0 to 4 (best balance).",
+       "timeFrame": "Baseline (within 2 days before starting supplementation) and at 8 weeks (end of supplementation)"
+      },
+      {
+       "measure": "Cognitive function",
+       "description": "Cognitive function will be assessed with Timed Up and Go Dual Task (TUGdt) test.\n\nThe participant first performs the Timed Up and Go (TUG) test alone, standing up from a chair, walking a short distance (3 meters) turning, and sitting back down, while simultaneously naming animals within a 10-second period, which assesses verbal fluency.\n\nThe time taken to complete these distances will be recorded, and the fluency in naming the animals will be assessed.",
+       "timeFrame": "Baseline (within 2 days before starting supplementation) and at 8 weeks (end of supplementation)"
+      },
+      {
+       "measure": "Isometric lower body strength",
+       "description": "The K-Pull test will be used to evaluate isometric lower body strength\n\nParticipants will perform a seated knee extension test, pushing their leg against the dynamometer with maximal effort. Participants will exert their maximum force against the unyielding device for 3-5 seconds. The peak force achieved (in Newtons) over a minimum of two trials will be recorded",
+       "timeFrame": "Baseline (within 2 days before starting supplementation) and at 8 weeks (end of supplementation)"
+      },
+      {
+       "measure": "Isometric upper body strength",
+       "description": "The K-Pull test will be used to evaluate isometric upper body strength\n\nParticipants will stand with their back against a wall to stabilize the torso. The participant will be instructed to exert a maximal force by pushing their arm outward against the device for 3-5 seconds.The peak force achieved (in Newtons or kilograms-force) over a minimum of two trials will be recorded.",
+       "timeFrame": "Baseline (within 2 days before starting supplementation) and at 8 weeks (end of supplementation)"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis: Medical confirmation of Down syndrome (trisomy of chromosome 21).\n* Physical capacity: Ability to perform basic physical tests (e.g., standing up from a chair or walking without assistance).\n* Informed consent: Informed consent will be obtained from both the participant and their legal representative, in compliance with current legislation for individuals requiring support measures.\n\nExclusion Criteria:\n\n* Chronic kidney disease: Diagnosis of chronic kidney disease.\n* Severe motor limitations: Inability to perform the required physical tests (e.g., paralysis or mobility impairments preventing the execution of muscle strength assessments).\n* Participation in other studies: Participation in another nutritional or supplementation intervention study within the last 6 months.\n* Allergies or intolerances: Known allergy to creatine or to components of the placebo (inulin).",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    }
+   },
+   "hasResults": false
+  }
+ ],
+ "nextPageToken": "ZVNj7o2Elu8o3lpyD92hpa72mpOQJJxuYvim3_USmD6SuP08FCfCFPfS8dFH0yI"
+}

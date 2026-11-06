@@ -1,0 +1,848 @@
+{
+ "studies": [
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT07902206",
+     "orgStudyIdInfo": {
+      "id": "SARCO-HD"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "PI26/00439",
+       "type": "OTHER_GRANT",
+       "domain": "Instituto de Salud Carlos III"
+      },
+      {
+       "id": "CEIm 3557",
+       "type": "OTHER",
+       "domain": "Comit\u00e9 de \u00c9tica de la Investigaci\u00f3n con medicamentos (CEIm) de Burgos y Soria"
+      }
+     ],
+     "organization": {
+      "fullName": "Universidad de Burgos",
+      "class": "OTHER"
+     },
+     "briefTitle": "Creatine and Beta-Hydroxy-Beta-Methylbutyrate (HMB) Supplementation Plus Home-Based Exercise for Sarcopenia in Huntington's Disease",
+     "officialTitle": "Multi-Omic Biomarkers of Response to an Integrated Intervention (Home-Based Multicomponent Exercise Plus Creatine and/or Beta-Hydroxy-Beta-Methylbutyrate [HMB] Supplementation) to Reduce Sarcopenia and Preserve Muscle and Functional Capacity in Huntington's Disease: A Randomized, Double-Blind, Placebo-Controlled, Four-Arm Trial",
+     "acronym": "SARCO-HD"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2026-10",
+     "overallStatus": "NOT_YET_RECRUITING",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2026-11",
+      "type": "ESTIMATED"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2028-12",
+      "type": "ESTIMATED"
+     },
+     "completionDateStruct": {
+      "date": "2028-12",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2026-10-20",
+     "studyFirstSubmitQcDate": "2026-10-27",
+     "studyFirstPostDateStruct": {
+      "date": "2026-10-28",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-27",
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-28",
+      "type": "ACTUAL"
+     }
+    },
+    "descriptionModule": {
+     "briefSummary": "Huntington's disease (HD) is a rare neurodegenerative disorder in which accelerated loss of muscle mass, strength and autonomy (physical frailty and sarcopenia) contributes to functional decline. This randomized, double-blind, placebo-controlled, four-arm parallel trial will include adults with HD and physical frailty/sarcopenia. All participants will follow a 12-week individualized, home-based multicomponent exercise program (VIVIFRAIL-based, with weekly remote monitoring) and will be randomized 1:1:1:1 to placebo, creatine (CRE), beta-hydroxy-beta-methylbutyrate (HMB) or combined CRE+HMB. The study will test whether combined CRE+HMB produces synergistic improvements in functional capacity, neuromuscular performance, body composition, cognition and quality of life, and will use multi-omic profiling (circulating and extracellular-vesicle microRNAs, plasma proteomics and genetics) to identify mechanisms and predictive signatures of response. Durability of effects will be assessed 6 months after the end of the intervention.",
+     "detailedDescription": "Design: randomized, double-blind, placebo-controlled, four-arm parallel-group trial conducted at the Neurology Department of Hospital Universitario de Burgos (HUBU; recruitment, clinical assessment, biological sampling) and the University of Burgos (UBU; exercise physiology, functional testing and multi-omic analyses).\n\nRandomization: computer-generated permuted blocks of variable size (REDCap), 1:1:1:1 allocation, stratified by sex, antipsychotic use, participation in structured exercise programs and diabetes. Allocation is performed and concealed by an independent pharmacist (HUBU Pharmacy Service). Participants, intervention staff, outcome assessors and data analysts are blinded; supplements are packed in identical coded sachets.\n\nInterventions: once daily for 12 weeks, dissolved in 100 mL fruit juice with the evening meal: (1) 3 g creatine monohydrate + 3 g microcrystalline cellulose; (2) 3 g beta-hydroxy-beta-methylbutyrate (HMB) + 3 g cellulose; (3) 3 g creatine + 3 g HMB; (4) placebo, 6 g microcrystalline cellulose. All participants follow a Mediterranean-style diet (protein 1.2-1.5 g/kg/day) and an individualized home-based multicomponent exercise program based on VIVIFRAIL, prescribed and supervised by an occupational therapist, with weekly phone calls to monitor adherence, perceived exertion (target Borg rating of perceived exertion \\[RPE\\] 12-15) and adverse events. Adherence is monitored by intake logs and sachet counts.\n\nAssessments: baseline (T0), week 12 (T1, end of intervention) and 6-month follow-up (T2). Functional capacity (Unified Huntington's Disease Rating Scale \\[UHDRS\\] Total Functional Capacity \\[TFC\\], Functional Assessment Scale, Independence Scale, gait speed, Short Physical Performance Battery \\[SPPB\\]), body composition (multifrequency bioimpedance), neuromuscular function (rate of force development and peak force during isometric knee extension), cognition (Mini-Mental State Examination \\[MMSE\\], Symbol Digit Modalities Test \\[SDMT\\], Stroop test, Trail Making Test \\[TMT\\], verbal fluency), quality of life (12-Item Short Form Health Survey \\[SF-12\\]) and adverse events. Fasting blood samples for small RNA sequencing (RNA-seq) of circulating and extracellular-vesicle microRNAs (with quantitative polymerase chain reaction \\[qPCR\\] validation), plasma proteomics (Olink Reveal, 1,034 proteins) and pharmacogenetics (15 single nucleotide polymorphisms \\[SNPs\\] in SLC6A8, CKM, GATM, MTOR, AKT1, PTEN; genome-wide genotyping in a subset).\n\nSample size: 64 participants (16 per arm) are needed to detect a small-to-moderate effect (f = 0.20) on change in TFC (alpha 0.05, power 0.80, r = 0.50); allowing for 25-30% dropout, 84-88 participants will be enrolled.\n\nStatistical analysis: intention-to-treat and per-protocol analyses; linear mixed-effects models with Group x Time interaction and pre-specified contrasts of creatine (CRE)+HMB versus each single supplement and placebo; multi-omic integration (mixOmics/DIABLO, MOFA+, elastic net, random forest) with repeated nested cross-validation to identify predictive signatures of response."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Huntington Disease",
+      "Sarcopenia",
+      "Frailty"
+     ],
+     "keywords": [
+      "Creatine",
+      "Beta-hydroxy-beta-methylbutyrate (HMB)",
+      "Multicomponent exercise",
+      "microRNA",
+      "Extracellular vesicles",
+      "Proteomics",
+      "Pharmacogenetics",
+      "Neuromuscular function"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "NA"
+     ],
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Four-arm parallel-group trial (placebo, creatine, beta-hydroxy-beta-methylbutyrate \\[HMB\\], creatine+HMB); all arms also receive the same individualized home-based multicomponent exercise program. Allocation ratio 1:1:1:1. 12-week intervention followed by a 6-month supplementation-free follow-up.",
+      "primaryPurpose": "TREATMENT",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "maskingDescription": "Data analysts are also masked. Active supplements and placebo are provided in identical coded sachets prepared by an independent hospital pharmacist and administered in the same vehicle (100 mL fruit juice).",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      }
+     },
+     "enrollmentInfo": {
+      "count": 88,
+      "type": "ESTIMATED"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Placebo + Exercise",
+       "type": "PLACEBO_COMPARATOR",
+       "description": "Placebo (6 g/day microcrystalline cellulose) for 12 weeks plus the individualized home-based multicomponent exercise program.",
+       "interventionNames": [
+        "Dietary Supplement: Placebo (microcrystalline cellulose)",
+        "Behavioral: Home-based multicomponent exercise program"
+       ]
+      },
+      {
+       "label": "Creatine + Exercise",
+       "type": "EXPERIMENTAL",
+       "description": "3 g/day creatine monohydrate + 3 g/day microcrystalline cellulose for 12 weeks plus the individualized home-based multicomponent exercise program.",
+       "interventionNames": [
+        "Dietary Supplement: Creatine monohydrate",
+        "Behavioral: Home-based multicomponent exercise program"
+       ]
+      },
+      {
+       "label": "Beta-Hydroxy-Beta-Methylbutyrate (HMB) + Exercise",
+       "type": "EXPERIMENTAL",
+       "description": "3 g/day beta-hydroxy-beta-methylbutyrate (HMB) + 3 g/day microcrystalline cellulose for 12 weeks plus the individualized home-based multicomponent exercise program.",
+       "interventionNames": [
+        "Dietary Supplement: Beta-hydroxy-beta-methylbutyrate (HMB)",
+        "Behavioral: Home-based multicomponent exercise program"
+       ]
+      },
+      {
+       "label": "Creatine + HMB + Exercise",
+       "type": "EXPERIMENTAL",
+       "description": "3 g/day creatine monohydrate + 3 g/day beta-hydroxy-beta-methylbutyrate (HMB) for 12 weeks plus the individualized home-based multicomponent exercise program.",
+       "interventionNames": [
+        "Dietary Supplement: Creatine monohydrate",
+        "Dietary Supplement: Beta-hydroxy-beta-methylbutyrate (HMB)",
+        "Behavioral: Home-based multicomponent exercise program"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DIETARY_SUPPLEMENT",
+       "name": "Creatine monohydrate",
+       "description": "3 g/day creatine monohydrate (with 3 g microcrystalline cellulose when given alone, or with 3 g beta-hydroxy-beta-methylbutyrate (HMB) in the combined arm), dissolved in 100 mL fruit juice and taken once daily with the evening meal for 12 weeks, in identical coded sachets.",
+       "armGroupLabels": [
+        "Creatine + Exercise",
+        "Creatine + HMB + Exercise"
+       ]
+      },
+      {
+       "type": "DIETARY_SUPPLEMENT",
+       "name": "Beta-hydroxy-beta-methylbutyrate (HMB)",
+       "description": "3 g/day HMB (with 3 g microcrystalline cellulose when given alone, or with 3 g creatine monohydrate in the combined arm), dissolved in 100 mL fruit juice and taken once daily with the evening meal for 12 weeks, in identical coded sachets.",
+       "armGroupLabels": [
+        "Beta-Hydroxy-Beta-Methylbutyrate (HMB) + Exercise",
+        "Creatine + HMB + Exercise"
+       ]
+      },
+      {
+       "type": "DIETARY_SUPPLEMENT",
+       "name": "Placebo (microcrystalline cellulose)",
+       "description": "6 g/day microcrystalline cellulose, suspended in 100 mL fruit juice and taken once daily with the evening meal for 12 weeks, in sachets identical in appearance to the active supplements.",
+       "armGroupLabels": [
+        "Placebo + Exercise"
+       ]
+      },
+      {
+       "type": "BEHAVIORAL",
+       "name": "Home-based multicomponent exercise program",
+       "description": "12-week individualized home-based multicomponent exercise program (strength, balance, gait and endurance) based on VIVIFRAIL, adapted to Huntington's disease (HD)-specific motor and cognitive limitations, prescribed and supervised by an occupational therapist, with weekly training logs and phone calls to monitor adherence, perceived exertion (target Borg rating of perceived exertion \\[RPE\\] 12-15) and adverse events. All participants also receive Mediterranean-style dietary advice (protein 1.2-1.5 g/kg/day).",
+       "armGroupLabels": [
+        "Beta-Hydroxy-Beta-Methylbutyrate (HMB) + Exercise",
+        "Creatine + Exercise",
+        "Creatine + HMB + Exercise",
+        "Placebo + Exercise"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Change in Total Functional Capacity (TFC)",
+       "description": "Unified Huntington's Disease Rating Scale (UHDRS) Total Functional Capacity score, range 0-13; higher scores indicate better functional capacity. Change from baseline will be compared across the four arms.",
+       "timeFrame": "Baseline, week 12 (end of intervention) and 6 months after the end of intervention"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Change in Functional Assessment Scale (FAS)",
+       "description": "UHDRS Functional Assessment Scale, 25 yes/no items, range 0-25; higher scores indicate better function.",
+       "timeFrame": "Baseline, week 12 (end of intervention) and 6 months after the end of intervention"
+      },
+      {
+       "measure": "Change in Independence Scale (IS)",
+       "description": "UHDRS Independence Scale, range 10-100 in 5-point steps; higher scores indicate greater independence.",
+       "timeFrame": "Baseline, week 12 (end of intervention) and 6 months after the end of intervention"
+      },
+      {
+       "measure": "Change in Gait Speed",
+       "description": "Usual gait speed (m/s) measured over a standardized walking course.",
+       "timeFrame": "Baseline, week 12 (end of intervention) and 6 months after the end of intervention"
+      },
+      {
+       "measure": "Change in Rate of Force Development (RFD) 0-200 ms",
+       "description": "Rate of force development (RFD) from 0 to 200 ms (N/s) during maximal isometric knee extension measured with a force transducer (best of three 5-s trials).",
+       "timeFrame": "Baseline, week 12 (end of intervention) and 6 months after the end of intervention"
+      },
+      {
+       "measure": "Change in Peak Force",
+       "description": "Peak force (N) during maximal isometric knee extension measured with a force transducer (best of three 5-s trials).",
+       "timeFrame": "Baseline, week 12 (end of intervention) and 6 months after the end of intervention"
+      },
+      {
+       "measure": "Change in Contraction Time",
+       "description": "Contraction time (ms) during maximal isometric knee extension measured with a force transducer (best of three 5-s trials).",
+       "timeFrame": "Baseline, week 12 (end of intervention) and 6 months after the end of intervention"
+      },
+      {
+       "measure": "Change in Fat-Free Mass (FFM)",
+       "description": "Fat-free mass (FFM, kg) assessed by multifrequency bioelectrical impedance analysis (BIA).",
+       "timeFrame": "Baseline, week 12 (end of intervention) and 6 months after the end of intervention"
+      },
+      {
+       "measure": "Change in Fat Mass (FM)",
+       "description": "Fat mass (FM, kg) assessed by multifrequency bioelectrical impedance analysis (BIA).",
+       "timeFrame": "Baseline, week 12 (end of intervention) and 6 months after the end of intervention"
+      },
+      {
+       "measure": "Change in Fat-Free Mass Index (FFMI)",
+       "description": "Fat-free mass index (FFMI, kg/m\\^2) assessed by multifrequency bioelectrical impedance analysis (BIA).",
+       "timeFrame": "Baseline, week 12 (end of intervention) and 6 months after the end of intervention"
+      },
+      {
+       "measure": "Change in Fat Mass Index (FMI)",
+       "description": "Fat mass index (FMI, kg/m\\^2) assessed by multifrequency bioelectrical impedance analysis (BIA).",
+       "timeFrame": "Baseline, week 12 (end of intervention) and 6 months after the end of intervention"
+      },
+      {
+       "measure": "Change in Mini-Mental State Examination (MMSE) Score",
+       "description": "MMSE total score, range 0-30; higher scores indicate better global cognitive function. Part of the Enroll-HD cognitive battery.",
+       "timeFrame": "Baseline, week 12 (end of intervention) and 6 months after the end of intervention"
+      },
+      {
+       "measure": "Change in Symbol Digit Modalities Test (SDMT), Oral Version",
+       "description": "Number of correct responses in 90 seconds on the oral version of the SDMT; higher scores indicate better performance. Part of the Enroll-HD cognitive battery.",
+       "timeFrame": "Baseline, week 12 (end of intervention) and 6 months after the end of intervention"
+      },
+      {
+       "measure": "Change in Stroop Test Performance",
+       "description": "Number of correct responses in 45 seconds on the Stroop test; higher scores indicate better performance. Part of the Enroll-HD cognitive battery.",
+       "timeFrame": "Baseline, week 12 (end of intervention) and 6 months after the end of intervention"
+      },
+      {
+       "measure": "Change in Trail Making Test Part A (TMT-A) Completion Time",
+       "description": "Time to complete Trail Making Test Part A (seconds); lower values indicate better performance. Part of the Enroll-HD cognitive battery.",
+       "timeFrame": "Baseline, week 12 (end of intervention) and 6 months after the end of intervention"
+      },
+      {
+       "measure": "Change in Trail Making Test Part B (TMT-B) Completion Time",
+       "description": "Time to complete Trail Making Test Part B (seconds); lower values indicate better performance. Part of the Enroll-HD cognitive battery.",
+       "timeFrame": "Baseline, week 12 (end of intervention) and 6 months after the end of intervention"
+      },
+      {
+       "measure": "Change in Semantic Verbal Fluency",
+       "description": "Number of words produced in 60 seconds in a semantic (category) verbal fluency task; higher scores indicate better performance. Part of the Enroll-HD cognitive battery.",
+       "timeFrame": "Baseline, week 12 (end of intervention) and 6 months after the end of intervention"
+      },
+      {
+       "measure": "Change in Phonemic Verbal Fluency",
+       "description": "Number of words produced in 60 seconds in a phonemic (letter) verbal fluency task; higher scores indicate better performance. Part of the Enroll-HD cognitive battery.",
+       "timeFrame": "Baseline, week 12 (end of intervention) and 6 months after the end of intervention"
+      },
+      {
+       "measure": "Change in 12-Item Short Form Health Survey (SF-12) Physical Component Summary (PCS)",
+       "description": "SF-12 Physical Component Summary score, range 0-100; higher scores indicate better physical health-related quality of life.",
+       "timeFrame": "Baseline, week 12 (end of intervention) and 6 months after the end of intervention"
+      },
+      {
+       "measure": "Change in 12-Item Short Form Health Survey (SF-12) Mental Component Summary (MCS)",
+       "description": "SF-12 Mental Component Summary score, range 0-100; higher scores indicate better mental health-related quality of life.",
+       "timeFrame": "Baseline, week 12 (end of intervention) and 6 months after the end of intervention"
+      },
+      {
+       "measure": "Number of Participants With Adverse Events and Falls",
+       "description": "Adverse events and serious adverse events (including falls, emergency visits and hospitalizations) related or unrelated to supplementation, exercise or blood sampling; causality assessed with the Spanish Pharmacovigilance System algorithm.",
+       "timeFrame": "From informed consent until 30 days after the end of supplementation (week 16), plus clinically relevant events up to 6 months after the end of intervention"
+      }
+     ],
+     "otherOutcomes": [
+      {
+       "measure": "Change in Circulating and Extracellular-Vesicle microRNA Profiles",
+       "description": "Plasma circulating and extracellular-vesicle-associated microRNAs (e.g., miR-1, miR-133, miR-206, miR-146a, miR-21, miR-34a) quantified by small RNA sequencing (RNA-seq; normalized counts) with quantitative polymerase chain reaction (qPCR) validation.",
+       "timeFrame": "Baseline, week 12 (end of intervention) and 6 months after the end of intervention"
+      },
+      {
+       "measure": "Change in Plasma Proteomic Profile",
+       "description": "Relative abundance, expressed as Normalized Protein eXpression (NPX) values, of 1,034 plasma proteins related to inflammation, immune response and muscle repair (e.g., interleukin-6 \\[IL-6\\], tumor necrosis factor-alpha \\[TNF-alpha\\], C-reactive protein \\[CRP\\]) measured with the Olink Reveal proximity extension assay.",
+       "timeFrame": "Baseline, week 12 (end of intervention) and 6 months after the end of intervention"
+      },
+      {
+       "measure": "Genetic Polymorphisms as Moderators of Response",
+       "description": "Genotypes of 15 single nucleotide polymorphisms (SNPs) in creatine transport/metabolism and mechanistic target of rapamycin (mTOR)-related genes (SLC6A8, CKM, GATM, MTOR, AKT1, PTEN) by TaqMan qPCR, and genome-wide genotyping (Axiom Spain Biobank Array) in a subset, analyzed as moderators of functional and neuromuscular response.",
+       "timeFrame": "Single blood sample during the study (baseline, week 12 or 6-month follow-up)"
+      },
+      {
+       "measure": "Change in Short Physical Performance Battery (SPPB)",
+       "description": "SPPB total score (0-12; higher scores indicate better physical performance), including balance, 4-m gait speed and 5-times chair stand tests. Exploratory functional outcome.",
+       "timeFrame": "Baseline, week 12 (end of intervention) and 6 months after the end of intervention"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18 years or older with genetically confirmed Huntington's disease (HD) (cytosine-adenine-guanine \\[CAG\\] repeat expansion in the huntingtin \\[HTT\\] gene).\n* Symptomatic HD, defined by a Unified Huntington's Disease Rating Scale (UHDRS) total motor score \\> 4, in early-intermediate stages according to Total Functional Capacity (TFC).\n* Physical frailty and/or sarcopenia, defined as Short Physical Performance Battery (SPPB) score \\<= 10 and/or gait speed \\< 1.0 m/s and/or European Working Group on Sarcopenia in Older People 2 (EWGSOP2) sarcopenia criteria (low strength and low muscle quantity/quality assessed by validated bioelectrical impedance analysis (BIA)-derived indices).\n* VIVIFRAIL category B (frail) or C1/C2 (pre-frail).\n* Stable pharmacological treatment for at least 4 weeks before baseline.\n* Clinical judgement of the neurologist and occupational therapist that the participant can safely perform a prescribed home-based exercise program with weekly remote monitoring.\n* Written informed consent from the participant or legally authorized representative (with participant assent whenever possible).\n\nExclusion Criteria:\n\n* Unstable cardiovascular, renal, hepatic or musculoskeletal disease contraindicating exercise or supplementation.\n* Severe chorea or postural instability preventing safe training; uncontrolled psychiatric symptoms or active substance abuse.\n* Severe dysphagia preventing safe intake of thickened liquids (unless a clinically acceptable alternative exists).\n* Allergy or intolerance to any supplement component.\n* Pregnancy or lactation.\n* Use of protein supplements in the month before inclusion.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    }
+   },
+   "hasResults": false
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT07891936",
+     "orgStudyIdInfo": {
+      "id": "2026-1182"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "A027/26",
+       "type": "OTHER",
+       "domain": "CEIm, Hospital Universitario de Getafe."
+      }
+     ],
+     "organization": {
+      "fullName": "Universidad Europea de Madrid",
+      "class": "OTHER"
+     },
+     "briefTitle": "Creatine and Muscle Health in Madrid's Walking Footballers.",
+     "officialTitle": "Effects of Creatine Supplementation on Muscle Health in Madrid's Older Walking Footballers",
+     "acronym": "MyoCreaWalk"
+    },
+    "statusModule": {
+     "statusVerifiedDate": "2026-10",
+     "overallStatus": "NOT_YET_RECRUITING",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "startDateStruct": {
+      "date": "2026-10-20",
+      "type": "ESTIMATED"
+     },
+     "primaryCompletionDateStruct": {
+      "date": "2027-06-20",
+      "type": "ESTIMATED"
+     },
+     "completionDateStruct": {
+      "date": "2027-12",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2026-10-01",
+     "studyFirstSubmitQcDate": "2026-10-16",
+     "studyFirstPostDateStruct": {
+      "date": "2026-10-23",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-16",
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-23",
+      "type": "ACTUAL"
+     }
+    },
+    "descriptionModule": {
+     "briefSummary": "Healthy aging requires effective, accessible, and sustainable interventions capable of preserving functional capacity and preventing age-related decline. In this context, walking football has emerged as a safe, inclusive physical exercise modality with high adherence among older adults, demonstrating benefits for muscle health, metabolic profile, and psychosocial well-being. On the other hand, creatine monohydrate supplementation is backed by robust scientific evidence as a strategy to enhance exercise adaptations, promote muscle mass maintenance, and improve factors related to metabolic syndrome.\n\nThe objective of this project is to evaluate the effects of creatine supplementation combined with regular walking football practice on muscle quality and metabolic profile in older adults, as well as to explore the underlying biological mechanisms using a cell culture-based experimental model. The ultimate goal is to determine the potential of this intervention to promote healthy longevity through functional, muscular, and metabolic indicators associated with healthspan.\n\nSpecifically, the study will analyze the intervention's effects on body composition, physical fitness, and metabolic syndrome markers; evaluate its impact on psychosocial well-being, quality of life, and cognitive function; and investigate the molecular mechanisms related to muscle health, protection against oxidative stress, and the modulation of senescence using an ex vivo/in vitro model.\n\nThe project will be carried out in two complementary phases. First, a longitudinal experimental study will be conducted in older adults participating in walking football programs and supplemented with creatine. Subsequently, skeletal muscle cultures will be exposed to conditioned sera obtained before and after the intervention to investigate its biological effects.\n\nThis approach will integrate the evaluation of clinical efficacy with the study of the underlying mechanisms, generating applicable knowledge for designing personalized, sustainable, and cost-effective strategies to prevent sarcopenia and metabolic syndrome."
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Muscle Adaptation",
+      "Body Composition",
+      "Physical Activity in Adults"
+     ],
+     "keywords": [
+      "Walking football",
+      "Creatine monohydrate",
+      "Physical exercise",
+      "Sarcopenia",
+      "Muscle quality"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "NA"
+     ],
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "primaryPurpose": "OTHER",
+      "maskingInfo": {
+       "masking": "NONE"
+      }
+     },
+     "enrollmentInfo": {
+      "count": 20,
+      "type": "ESTIMATED"
+     }
+    },
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "Creatine + Walking Football training Group",
+       "type": "EXPERIMENTAL",
+       "description": "Single-arm, prospective interventional trial with a within-subject (pre-post) design, where each participant serves as his or her own control.",
+       "interventionNames": [
+        "Dietary Supplement: Monohydrate Creatine supplementation during Walking Football training"
+       ]
+      }
+     ],
+     "interventions": [
+      {
+       "type": "DIETARY_SUPPLEMENT",
+       "name": "Monohydrate Creatine supplementation during Walking Football training",
+       "description": "Participants will be assessed at baseline, after 16 weeks of supervised Walking Football training, and again after a further 16 weeks of Walking Football combined with daily creatine monohydrate supplementation. This within-subject design allows each participant to serve as their own control when evaluating the effects of creatine supplementation beyond those attributable to Walking Football training alone.",
+       "armGroupLabels": [
+        "Creatine + Walking Football training Group"
+       ]
+      }
+     ]
+    },
+    "outcomesModule": {
+     "primaryOutcomes": [
+      {
+       "measure": "Muscle Quality",
+       "description": "It is defined as the capacity of skeletal muscle to generate strength relative to its mass, integrating both structural and functional aspects. It will be expressed as the ratio between the estimated 1-RM strength and muscle mass measured by dual-energy X-ray absorptiometry (DEXA)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      }
+     ],
+     "secondaryOutcomes": [
+      {
+       "measure": "Nutritional profile",
+       "description": "This will be assessed through a nutritional interview conducted by a professional, which will include a complete dietary history, a 24-hour dietary recall (24hR), and a food frequency questionnaire (FFQ)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Body composition",
+       "description": "assessed through basic anthropometry: weight in kilogram (kg)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Body composition",
+       "description": "assessed through basic anthropometry: height in centimeter (cm)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Body composition",
+       "description": "assessed through basic anthropometry: body mass index (BMI), weight and height will be combined to report BMI in kg/m\\^2",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Body composition",
+       "description": "Dual X-Ray Densitometry: body adiposity index, (BAI) in perctange (%)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Body composition",
+       "description": "Dual X-Ray Densitometry: fat mass index (FMI) kilograms per square meter. kg/m\u00b2",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Body composition",
+       "description": "Dual X-Ray Densitometry: visceral adipose tissue area, VAT Area in square centimeter (cm\u00b2)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Body composition",
+       "description": "Dual X-Ray Densitometry: skeletal muscle mass index, (SMI) kilograms per square meter. kg/m\u00b2",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Body composition",
+       "description": "Dual X-Ray Densitometry: appendicular skeletal muscle mass index, (ASM). kilograms per square meter. kg/m\u00b2",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Physical fitness",
+       "description": "Cardiorespiratory fitness assessed via a performance test with gas analysis using ergometry (incremental test to exhaustion): VO2 max (L/min) in First Ventilatory Threshold, Second Ventilatory Threshold and at maximum test time.",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Physical fitness",
+       "description": "Cardiorespiratory fitness assessed via a performance test with gas analysis using ergometry (incremental test to exhaustion): Relative VO2 (ml/kg/min) in First Ventilatory Threshold, Second Ventilatory Threshold and at maximum test time.",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Physical fitness",
+       "description": "Cardiorespiratory fitness assessed via a performance test with gas analysis using ergometry (incremental test to exhaustion): Absolute VO2 (L/min) in First Ventilatory Threshold, Second Ventilatory Threshold and at maximum test time.",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Physical fitness",
+       "description": "Cardiorespiratory fitness assessed via a performance test with gas analysis using ergometry (incremental test to exhaustion): Absolute VCO2 (L/min) in First Ventilatory Threshold, Second Ventilatory Threshold and at maximum test time.",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Physical fitness",
+       "description": "Cardiorespiratory fitness assessed via a performance test with gas analysis using ergometry (incremental test to exhaustion): Respiratory exchange ratio, RER in First Ventilatory Threshold, Second Ventilatory Threshold and at maximum test time.",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Physical fitness",
+       "description": "Cardiorespiratory fitness assessed via a performance test with gas analysis using ergometry (incremental test to exhaustion): Ventilatory equivalent, rate of ventilation and absolute O2 (VE/O2) in First Ventilatory Threshold, Second Ventilatory Threshold and at maximum test time.",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Physical fitness",
+       "description": "Cardiorespiratory fitness assessed via a performance test with gas analysis using ergometry (incremental test to exhaustion): Ventilatory equivalent, rate of ventilation and absolute CO2 (VE/CO2) in First Ventilatory Threshold, Second Ventilatory Threshold and at maximum test time.",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Physical fitness",
+       "description": "(1) Cardiorespiratory fitness assessed via a performance test with gas analysis using ergometry (incremental test to exhaustion): Speed (km/h) in First Ventilatory Threshold, Second Ventilatory Threshold and at maximum test time.",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Physical fitness",
+       "description": "(1) Cardiorespiratory fitness assessed via a performance test with gas analysis using ergometry (incremental test to exhaustion): time in sencond (s) when it appears First Ventilatory Threshold, Second Ventilatory Threshold and at maximum test time.",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Physical fitness",
+       "description": "(1) Cardiorespiratory fitness assessed via a performance test with gas analysis using ergometry (incremental test to exhaustion): V-Slope break-point (%)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Metabolic profile",
+       "description": "Clinical and biochemical variables will be included to identify metabolic alterations associated with the risk of developing Type 2 Diabetes Mellitus (T2DM) and cardiovascular diseases (CVD), based on the criteria proposed by the International Diabetes Federation (IDF): Biochemical variables (fasting): glucose (mg/dL)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Metabolic profile",
+       "description": "Clinical and biochemical variables will be included to identify metabolic alterations associated with the risk of developing Type 2 Diabetes Mellitus (T2DM) and cardiovascular diseases (CVD), based on the criteria proposed by the International Diabetes Federation (IDF): Biochemical variables (fasting): triglycerides (mg/dL)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Metabolic profile",
+       "description": "Clinical and biochemical variables will be included to identify metabolic alterations associated with the risk of developing Type 2 Diabetes Mellitus (T2DM) and cardiovascular diseases (CVD), based on the criteria proposed by the International Diabetes Federation (IDF): Biochemical variables (fasting): total cholesterol (mg/dL)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Metabolic profile",
+       "description": "Clinical and biochemical variables will be included to identify metabolic alterations associated with the risk of developing Type 2 Diabetes Mellitus (T2DM) and cardiovascular diseases (CVD), based on the criteria proposed by the International Diabetes Federation (IDF): Biochemical variables (fasting): HDL-cholesterol (mg/dL)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Metabolic profile",
+       "description": "Clinical and biochemical variables will be included to identify metabolic alterations associated with the risk of developing Type 2 Diabetes Mellitus (T2DM) and cardiovascular diseases (CVD), based on the criteria proposed by the International Diabetes Federation (IDF): Clinical variables: blood pressure (mmHg)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Metabolic profile",
+       "description": "Clinical and biochemical variables will be included to identify metabolic alterations associated with the risk of developing Type 2 Diabetes Mellitus (T2DM) and cardiovascular diseases (CVD), based on the criteria proposed by the International Diabetes Federation (IDF): Clinical variables: waist circumference (cm)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Oxidative status",
+       "description": "The following markers will be analyzed using spectrophotometry: malondialdehyde, MDA (\u00b5mol/L) (absorbance at 532 nm)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Oxidative status",
+       "description": "The following markers will be analyzed using spectrophotometry: glutathione peroxidase, GPX (U/mL) (absorbance at 340 nm)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Oxidative status",
+       "description": "The following markers will be analyzed using spectrophotometry: total antioxidant capacity, TAC (\u00b5mol TE/L) (fluoresence).",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Anabolic and functional profile",
+       "description": "Enzyme-linked immunosorbent assay (ELISA) techniques using validated commercial kits for serum/plasma will be used to analyze: insulin-like growth factor 1, IGF-1 (ng/mL)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Anabolic and functional profile",
+       "description": "Enzyme-linked immunosorbent assay (ELISA) techniques using validated commercial kits for serum/plasma will be used to analyze: Myostatin (ng/mL)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Anabolic and functional profile",
+       "description": "Enzyme-linked immunosorbent assay (ELISA) techniques using validated commercial kits for serum/plasma will be used to analyze: Testosterone (ng/mL)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Anabolic and functional profile",
+       "description": "Enzyme-linked immunosorbent assay (ELISA) techniques using validated commercial kits for serum/plasma will be used to analyze: Vitamin D (ng/mL).",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Inflammation markers",
+       "description": "Enzyme-linked immunosorbent assay (ELISA) techniques using validated commercial kits for serum/plasma will be used to analyze: \u03b1-Klotho (pg/mL)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Inflammation markers",
+       "description": "Enzyme-linked immunosorbent assay (ELISA) techniques using validated commercial kits for serum/plasma will be used to analyze: high-sensitivity C-reactive protein, hs-CRP (mg/L).",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Quality of life",
+       "description": "These will be evaluated using the following questionnaires: SF-12 Health Survey version 2",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Cognitive function",
+       "description": "These will be evaluated using the following questionnaires: Montreal Cognitive Assessment, (MoCA)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Heart rate variability (HRV)",
+       "description": "It will be evaluated through continuous heart rate monitoring during training sessions using the H10 POLAR system. Registred in ELITE HRV movil aplication and subsequently, the signals will be analyzed using KUBIOS HRV software to obtain the main heart rate variability (HRV) indicators as a reflection of autonomic modulation. The parameters considered will be: heart rate, HR (bpm)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Heart rate variability (HRV)",
+       "description": "It will be evaluated through continuous heart rate monitoring during training sessions using the H10 POLAR system. Registred in ELITE HRV movil aplication and subsequently, the signals will be analyzed using KUBIOS HRV software to obtain the main heart rate variability (HRV) indicators as a reflection of autonomic modulation. The parameters considered will be: standard deviation of NN intervals, SDNN (ms)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Heart rate variability (HRV)",
+       "description": "It will be evaluated through continuous heart rate monitoring during training sessions using the H10 POLAR system. Registred in ELITE HRV movil aplication and subsequently, the signals will be analyzed using KUBIOS HRV software to obtain the main heart rate variability (HRV) indicators as a reflection of autonomic modulation. The parameters considered will be: root mean square of successive differences between NN intervals, RMSSD (ms)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Heart rate variability (HRV)",
+       "description": "It will be evaluated through continuous heart rate monitoring during training sessions using the H10 POLAR system. Registred in ELITE HRV movil aplication and subsequently, the signals will be analyzed using KUBIOS HRV software to obtain the main heart rate variability (HRV) indicators as a reflection of autonomic modulation. The parameters considered will be: percentage of NN intervals that differ by more than 50 ms, pNN50 (%)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Heart rate variability (HRV)",
+       "description": "It will be evaluated through continuous heart rate monitoring during training sessions using the H10 POLAR system. Registred in ELITE HRV movil aplication and subsequently, the signals will be analyzed using KUBIOS HRV software to obtain the main heart rate variability (HRV) indicators as a reflection of autonomic modulation. The parameters considered will be: low frequency, LF (ms\u00b2)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Heart rate variability (HRV)",
+       "description": "It will be evaluated through continuous heart rate monitoring during training sessions using the H10 POLAR system. Registred in ELITE HRV movil aplication and subsequently, the signals will be analyzed using KUBIOS HRV software to obtain the main heart rate variability (HRV) indicators as a reflection of autonomic modulation. The parameters considered will be: high frequency, HF (ms\u00b2)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Heart rate variability (HRV)",
+       "description": "It will be evaluated through continuous heart rate monitoring during training sessions using the H10 POLAR system. Registred in ELITE HRV movil aplication and subsequently, the signals will be analyzed using KUBIOS HRV software to obtain the main heart rate variability (HRV) indicators as a reflection of autonomic modulation. The parameters considered will be: Low Frequency/ High Frequency Ratio(LF/HF ratio).",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Internal training load",
+       "description": "It will be evaluated through continuous heart rate monitoring during training sessions using the POLAR Team system. Considering the following parameters:\n\nAverage and Maximum Heart Rate (Avg HR / Max HR): This indicates the average effort and peak intensity",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Internal training load",
+       "description": "It will be evaluated through continuous heart rate monitoring during training sessions using the POLAR Team system. Considering the following parameters:\n\nTime in Heart Rate Zones (Zones 1 to 5, defined by Martti Karvonen, Eric Banister and Stephen Seiler)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Internal training load",
+       "description": "It will be evaluated through continuous heart rate monitoring during training sessions using the POLAR Team system. Considering the following parameters:\n\nCardio Load (Cardio Load / TRIMP): This is a numerical value calculated by Polar Team that combines intensity (HR) and session duration.",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "External training load",
+       "description": "The actual mechanical load will be quantified through triaxial accelerometry during training sessions, using accelerometers integrated into monitoring devices (Polar TEAM System) to record: Total Distance Covered: The total volume of the session (in meters or kilometers)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "External training load",
+       "description": "The actual mechanical load will be quantified through triaxial accelerometry during training sessions, using accelerometers integrated into monitoring devices (Polar TEAM System) to record: Accelerations and Decelerations (Count, (m/s\u00b2)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "External training load",
+       "description": "The actual mechanical load will be quantified through triaxial accelerometry during training sessions, using accelerometers integrated into monitoring devices (Polar TEAM System) to record: Muscle Load. Polar calculates this using accelerometer data (in watts or joules)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "External training load",
+       "description": "The actual mechanical load will be quantified through triaxial accelerometry during training sessions, using accelerometers integrated into monitoring devices (Polar TEAM System) to record: Speed Zones (Time/Distance in Zones 1 and 2 in Km/h o m/h)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "External training load",
+       "description": "The actual mechanical load will be quantified through triaxial accelerometry during training sessions, using accelerometers integrated into monitoring devices (Polar TEAM System) to record: Average and Maximum Speed in Km/h o m/h)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Muscular strength (maximum)",
+       "description": "Measured through isometric contraction: Upper limb, handgrip dynamometry, using a dial dynamometer to record the maximal handgrip strength in kilograms.",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Muscular strength (maximum)",
+       "description": "Measured through isometric contraction: lower limb, Hawkin Strength platform using an Isometric Test (Half Squat with a strength specific belt). Variables to extract from this test: Absolute Maximal Strength (Peak Force - N): The highest strength recorded during the pull",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Muscular strength (maximum)",
+       "description": "Measured through isometric contraction: lower limb, Hawkin Strength platform using an Isometric Test (Half Squat with a strength specific belt). Variables to extract from this test: Relative Maximal Strength (Peak Force Relative - N/kg)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Muscular strength (maximum)",
+       "description": "Measured through isometric contraction: lower limb, Hawkin Strength platform using an Isometric Test (Half Squat with a strength specific belt). Variables to extract from this test: Rate of Force Development in specific time windows (RFD between 0-100 ms and 0-200 ms - N/s): Measures static \"explosive strength\"",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Muscular strength (maximum)",
+       "description": "Measured through isometric contraction: lower limb, Hawkin Strength platform using an Isometric Test (Half Squat with a strength specific belt). Variables to extract from this test: Maximal Strength Asymmetry (%): Indicates whether one lower limb exerts significantly more strength than the other.",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Muscular strength (Power and explosive strength)",
+       "description": "Measured through isometric contraction: lower limb, Hawkin Strength platform using a Counter Movement Jump test (CMJ). Variables to extract from this test: Absolute Peak Power (W) and Relative Peak Power (W/kg)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Muscular strength (Power and explosive strength)",
+       "description": "Measured through isometric contraction: lower limb, Hawkin Strength platform using a Counter Movement Jump test (CMJ). Variables to extract from this test: Jump Height (m or cm)",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Muscular strength (Power and explosive strength)",
+       "description": "Measured through isometric contraction: lower limb, Hawkin Strength platform using a Counter Movement Jump test (CMJ). Variables to extract from this test: Modified Reactive Strength Index (mRSI or RSImod - AU): Calculated by dividing the jump height by the total time to takeoff.",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Muscular strength (Power and explosive strength)",
+       "description": "Measured through isometric contraction: lower limb, Hawkin Strength platform using a Counter Movement Jump test (CMJ). Variables to extract from this test: Propulsion Mean strangth (N or N/kg): The average strength applied to push off the ground",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Muscular strength (Power and explosive strength)",
+       "description": "Measured through isometric contraction: lower limb, Hawkin Strength platform using a Counter Movement Jump test (CMJ). Variables to extract from this test: Active Braking / Deceleration Strength (Braking Phase Metrics): Extract the Braking Peak strength",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Muscular strength (Power and explosive strength)",
+       "description": "Measured through isometric contraction: lower limb, Hawkin Strength platform using a Counter Movement Jump test (CMJ). Variables to extract from this test: \u2022 Asymmetry in the Propulsion and Braking Phase (%): Hawkin Dynamics breaks down the imbalances between the left and right leg during each phase of the dynamic movement.",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      },
+      {
+       "measure": "Dynamic Strength Index (DSI)",
+       "description": "relationship between explosive (dynamic) strength and theoretical maximal (isometric) strength. It tells us what percentage of their maximal strength the subject is capable of applying quickly.\n\nThis variable is derived from Relative Maximal Strength (N/kg) isometric test / Relative Maximal Power (W/kg) from CMJ test.",
+       "timeFrame": "From enrollment to the end of treatment at 32 weeks"
+      }
+     ],
+     "otherOutcomes": [
+      {
+       "measure": "Characterization variables (collected through interview and individual history)",
+       "description": "Sociodemographic: age, sex, educational level, employment status, marital status, and years since retirement.",
+       "timeFrame": "At enrollment time"
+      },
+      {
+       "measure": "Characterization variables (collected through interview and individual history)",
+       "description": "Clinical: Medical history, comorbidities, time since diagnosis, current medication, tobacco habits (status, daily cigarettes, active years, and pack-years), and alcohol intake (status, weekly frequency, and SDUs/week).",
+       "timeFrame": "At enrollment time"
+      },
+      {
+       "measure": "Characterization variables (collected through interview and individual history)",
+       "description": "Sports-related: years of walking football practice, training frequency, sports injuries, athletic history, and physical activity level based on the criteria of the American College of Sports Medicine (ACSM) cardiovascular risk questionnaire.",
+       "timeFrame": "At enrollment time"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Individuals over 50 years of age\n* Minimum physical activity level recommended by the World Health Organization (\u2265150 minutes of moderate-intensity activity or \u226575 minutes of vigorous-intensity activity per week)\n* Men and women with regular participation (\u22652 times per week) in walking football training for at least 6 months\n* Voluntary acceptance to participate in the study after having read, understood, and signed the informed consent form.\n\nExclusion Criteria:\n\n* Presence of metabolic, neuromuscular, cardiovascular, or joint diseases that contraindicate moderate-to-vigorous physical activity and/or creatine supplementation\n* Current use of creatine nutritional supplements or other ergogenic compounds\n* Having any comprehension difficulties or presenting musculoskeletal alterations that influence the assessments\n* Being under pharmacological treatment that may alter muscle mass or function\n* Cognitive impairment or alteration that prevents following the protocol indications.",
+     "healthyVolunteers": true,
+     "sex": "ALL",
+     "minimumAge": "50 Years",
+     "stdAges": [
+      "ADULT",
+      "OLDER_ADULT"
+     ]
+    },
+    "referencesModule": {
+     "references": [
+      {
+       "pmid": "24392772",
+       "type": "BACKGROUND",
+       "citation": "Candow DG, Zello GA, Ling B, Farthing JP, Chilibeck PD, McLeod K, Harris J, Johnson S. Comparison of creatine supplementation before versus after supervised resistance training in healthy older adults. Res Sports Med. 2014;22(1):61-74. doi: 10.1080/15438627.2013.852088."
+      },
+      {
+       "pmid": "37206869",
+       "type": "BACKGROUND",
+       "citation": "Amiri E, Sheikholeslami-Vatani D. The role of resistance training and creatine supplementation on oxidative stress, antioxidant defense, muscle strength, and quality of life in older adults. Front Public Health. 2023 May 2;11:1062832. doi: 10.3389/fpubh.2023.1062832. eCollection 2023."
+      },
+      {
+       "pmid": "36160355",
+       "type": "BACKGROUND",
+       "citation": "Dobrowolski P, Prejbisz A, Kurylowicz A, Baska A, Burchardt P, Chlebus K, Dzida G, Jankowski P, Jaroszewicz J, Jaworski P, Kaminski K, Kaplon-Cieslicka A, Klocek M, Kukla M, Mamcarz A, Mastalerz-Migas A, Narkiewicz K, Ostrowska L, Sliz D, Tarnowski W, Wolf J, Wylezol M, Zdrojewski T, Banach M, Januszewicz A, Bogdanski P. Metabolic syndrome - a new definition and management guidelines: A joint position paper by the Polish Society of Hypertension, Polish Society for the Treatment of Obesity, Polish Lipid Association, Polish Association for Study of Liver, Polish Society of Family Medicine, Polish Society of Lifestyle Medicine, Division of Prevention and Epidemiology Polish Cardiac Society, \"Club 30\" Polish Cardiac Society, and Division of Metabolic and Bariatric Surgery Society of Polish Surgeons. Arch Med Sci. 2022 Aug 30;18(5):1133-1156. doi: 10.5114/aoms/152921. eCollection 2022. No abstract available."
+      },
+      {
+       "pmid": "29138605",
+       "type": "BACKGROUND",
+       "citation": "Chilibeck PD, Kaviani M, Candow DG, Zello GA. Effect of creatine supplementation during resistance training on lean tissue mass and muscular strength in older adults: a meta-analysis. Open Access J Sports Med. 2017 Nov 2;8:213-226. doi: 10.2147/OAJSM.S123529. eCollection 2017."
+      },
+      {
+       "pmid": "40523529",
+       "type": "BACKGROUND",
+       "citation": "Masfiah S, Kurnialandi A, Meij JJ, Maier AB. Definitions of healthspan: A systematic review. Ageing Res Rev. 2025 Sep;111:102806. doi: 10.1016/j.arr.2025.102806. Epub 2025 Jun 14."
+      },
+      {
+       "pmid": "30312372",
+       "type": "BACKGROUND",
+       "citation": "Cruz-Jentoft AJ, Bahat G, Bauer J, Boirie Y, Bruyere O, Cederholm T, Cooper C, Landi F, Rolland Y, Sayer AA, Schneider SM, Sieber CC, Topinkova E, Vandewoude M, Visser M, Zamboni M; Writing Group for the European Working Group on Sarcopenia in Older People 2 (EWGSOP2), and the Extended Group for EWGSOP2. Sarcopenia: revised European consensus on definition and diagnosis. Age Ageing. 2019 Jan 1;48(1):16-31. doi: 10.1093/ageing/afy169."
+      },
+      {
+       "pmid": "16785035",
+       "type": "BACKGROUND",
+       "citation": "Oudot A, Martin C, Busseuil D, Vergely C, Demaison L, Rochette L. NADPH oxidases are in part responsible for increased cardiovascular superoxide production during aging. Free Radic Biol Med. 2006 Jun 15;40(12):2214-22. doi: 10.1016/j.freeradbiomed.2006.02.020. Epub 2006 Mar 23."
+      },
+      {
+       "pmid": "41010311",
+       "type": "BACKGROUND",
+       "citation": "Goddard G, Rajagopal S, Wahbah Makhoul G, Raji MA. Metabolic Syndrome in Older Adults: Through the Lens of Institute for Healthcare Improvement's (IHI) 4Ms Framework and Social Determinants of Health. Life (Basel). 2025 Aug 28;15(9):1370. doi: 10.3390/life15091370."
+      },
+      {
+       "pmid": "14506079",
+       "type": "BACKGROUND",
+       "citation": "Short KR, Vittone JL, Bigelow ML, Proctor DN, Nair KS. Age and aerobic exercise training effects on whole body and muscle protein metabolism. Am J Physiol Endocrinol Metab. 2004 Jan;286(1):E92-101. doi: 10.1152/ajpendo.00366.2003. Epub 2003 Sep 23."
+      }
+     ]
+    }
+   },
+   "hasResults": false
+  }
+ ]
+}
