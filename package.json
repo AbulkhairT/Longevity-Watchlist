@@ -9,16 +9,19 @@
     "node": ">=20.9"
   },
   "scripts": {
-    "dev": "LW_CONTENT_MODE=fixtures next dev",
+    "dev": "LW_CONTENT_MODE=fixtures LW_PREVIEW_PAID_OFFER=1 next dev",
     "build": "next build",
     "build:fixtures": "LW_CONTENT_MODE=fixtures next build",
+    "build:fixtures:paid-preview": "LW_CONTENT_MODE=fixtures LW_PREVIEW_PAID_OFFER=1 next build",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "validate": "tsx scripts/validate-content.ts",
     "check": "npm run typecheck && npm test && npm run validate",
     "check:export": "tsx scripts/check-export.ts",
     "check:export:fixtures": "LW_CONTENT_MODE=fixtures tsx scripts/check-export.ts",
-    "preview": "node scripts/serve-static.mjs out 4173"
+    "preview": "node scripts/serve-static.mjs out 4173",
+    "approve": "tsx scripts/approve.ts",
+    "digest": "tsx scripts/digest.ts"
   },
   "dependencies": {
     "next": "^16.4.5",

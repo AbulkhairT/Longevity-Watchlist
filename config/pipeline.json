@@ -1,0 +1,40 @@
+{
+  "$comment": "Research pipeline limits. Only a human edits this file. The AI model is pinned here and is never switched automatically.",
+  "schemaVersion": 1,
+  "schedule": "weekly",
+  "ai": {
+    "provider": "z.ai",
+    "model": "glm-4.7-flash",
+    "endpoint": "https://api.z.ai/api/paas/v4/chat/completions",
+    "freeTierConfirmed": false,
+    "freeTierConfirmedBy": null,
+    "freeTierConfirmedOn": null,
+    "freeTierSource": null,
+    "maxCandidatesPerRun": 10,
+    "maxRequestsPerRun": 15,
+    "maxConcurrentRequests": 1,
+    "minSecondsBetweenRequests": 5,
+    "maxInputCharsPerCandidate": 6000,
+    "maxOutputTokensPerRequest": 1200,
+    "requestTimeoutSeconds": 60,
+    "maxTransientRetries": 2,
+    "stopOnStatus": [401, 402, 403, 429]
+  },
+  "collection": {
+    "pubmed": {
+      "maxRequestsPerRun": 60,
+      "requestsPerSecondWithoutKey": 2,
+      "requestsPerSecondWithKey": 8,
+      "maxResultsPerQuery": 20,
+      "lookbackDays": 14
+    },
+    "clinicaltrials": {
+      "maxRequestsPerRun": 40,
+      "minSecondsBetweenRequests": 1,
+      "pageSize": 20,
+      "maxPagesPerQuery": 2
+    },
+    "requestTimeoutSeconds": 30,
+    "maxTransientRetries": 2
+  }
+}

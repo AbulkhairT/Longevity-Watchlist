@@ -1,0 +1,20 @@
+{
+  "$comment": "Weekly digest test. Links starting with PLACEHOLDER are not live; the site shows them as not connected yet. Keep paidOffer.enabled false while hosting on Vercel Hobby (non-commercial use only).",
+  "schemaVersion": 1,
+  "provider": "buttondown",
+  "paidOffer": {
+    "enabled": false,
+    "label": "Early test",
+    "currency": "USD",
+    "monthly": 6,
+    "yearly": 49
+  },
+  "links": {
+    "signupFormAction": "PLACEHOLDER: https://buttondown.com/api/emails/embed-subscribe/<your-username>",
+    "paidUpgradeUrl": "PLACEHOLDER: https://buttondown.com/<your-username>/buy",
+    "manageSubscriptionUrl": "PLACEHOLDER: Buttondown subscriber portal URL",
+    "requestInterventionUrl": "https://github.com/AbulkhairT/Longevity-Watchlist/issues/new?template=intervention-request.yml",
+    "correctionsUrl": "/methodology/#corrections"
+  },
+  "tagPrefix": "follows-"
+}
