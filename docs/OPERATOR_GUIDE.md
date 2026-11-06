@@ -23,7 +23,7 @@ Short and practical. Read [PROVIDERS.md](PROVIDERS.md) for what was verified abo
 1. **Collect** (Phase 3, not built yet): the scheduled GitHub Action opens a draft PR with candidates and the week's monitoring log. Until then, there are no monitoring counts and the digest says so.
 2. **Review**: for each candidate worth acting on, edit a draft in `drafts/claims/`, read the source, then:
    ```bash
-   npm run approve -- <claim-id> --reviewer "Your Name" --reasoning "Why this is right"
+   npm run approve -- <claim-id> --reviewer "Your Name" --reason "Why this is right"
    ```
    Commit, open a PR, let CI pass, merge. Vercel rebuilds the site.
 3. **Generate the digest** for the week that just ended (weeks start Monday):

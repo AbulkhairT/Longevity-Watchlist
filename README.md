@@ -71,7 +71,7 @@ Schemas live in [src/lib/schema.ts](src/lib/schema.ts) (Zod). They enforce, amon
 AI and scripts only propose. A person publishes:
 
 ```bash
-npm run approve -- <claim-id> --reviewer "Your Name" --reasoning "Why the grade and wording are right"
+npm run approve -- <claim-id> --reviewer "Your Name" --reason "Why the grade and wording are right"
 ```
 
 The command takes the edited draft from `drafts/claims/` (or an edited file in `content/claims/` for re-approval), validates it, asks for confirmation, and records the reviewer, date, reasoning and a sha256 **content hash** of the claim and every source it cites. It refuses to run in CI. Any later edit to approved content, or to a source it cites, voids the approval: the claim drops out of the build, and `npm run validate` fails until someone re-approves it or reverts the edit.

@@ -9,7 +9,7 @@ Work in progress. **Nothing in this directory is ever published or read by the w
 To publish a draft claim, edit it until you agree with every word and source, then run:
 
 ```bash
-npm run approve -- <claim-id> --reviewer "Your Name" --reasoning "Why the grade and wording are right"
+npm run approve -- <claim-id> --reviewer "Your Name" --reason "Why the grade and wording are right"
 ```
 
 The command validates the draft, records your name, the date, your reasoning and a content hash, and moves it into `content/`. Merging a draft without running it publishes nothing: the build only includes claims with a valid approval.
