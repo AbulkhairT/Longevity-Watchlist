@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "vitamin-d-cancer-incidence",
+  "interventionId": "vitamin-d",
+  "title": "Cancer incidence",
+  "order": 1,
+  "fixture": true,
+  "illustrative": true,
+  "assessment": {
+    "confidence": "moderate",
+    "finding": "no-meaningful-benefit",
+    "evidenceBase": "human",
+    "population": "Generally healthy older adults",
+    "design": "Large randomized trials",
+    "outcomeType": "health-outcome",
+    "plain": "No meaningful drop in new diagnoses.",
+    "summary": "Large trials found no meaningful drop in new cancer diagnoses.",
+    "rationale": "Illustrative grade for design review only. Not assessed against the rubric.",
+    "limitations": "Some analyses suggest effects on cancer deaths rather than diagnoses. That is a separate claim.",
+    "evidenceIds": []
+  },
+  "review": {
+    "status": "unreviewed"
+  },
+  "updates": [
+    {
+      "id": "vitamin-d-cancer-incidence-first-assessment",
+      "kind": "first-assessment",
+      "date": null,
+      "summary": "Illustrative starting grade: moderate confidence. Sample content, not a reviewed assessment.",
+      "whyItMatters": "Sets the starting point that later changes are measured against.",
+      "reasoning": "Design fixture. No reviewer has assessed this claim.",
+      "previous": null,
+      "next": {
+        "confidence": "moderate",
+        "finding": "no-meaningful-benefit"
+      },
+      "evidenceIds": [],
+      "review": {
+        "status": "unreviewed"
+      }
+    }
+  ]
+}

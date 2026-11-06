@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "nmn-nr-nad-levels",
+  "interventionId": "nmn-nr",
+  "title": "Blood NAD+ levels",
+  "order": 0,
+  "fixture": true,
+  "illustrative": true,
+  "assessment": {
+    "confidence": "high",
+    "finding": "supports-benefit",
+    "evidenceBase": "human",
+    "population": "Healthy middle-aged and older adults",
+    "design": "Multiple randomized trials",
+    "outcomeType": "biomarker",
+    "plain": "Reliably raises a marker. Not a health outcome.",
+    "summary": "Supplements consistently raise NAD+ in blood.",
+    "rationale": "Illustrative grade for design review only. Not assessed against the rubric.",
+    "limitations": "Shows the supplement is absorbed and changes a marker. It does not show better health or longer life.",
+    "evidenceIds": []
+  },
+  "review": {
+    "status": "unreviewed"
+  },
+  "updates": [
+    {
+      "id": "nmn-nr-nad-levels-first-assessment",
+      "kind": "first-assessment",
+      "date": null,
+      "summary": "Illustrative starting grade: high confidence. Sample content, not a reviewed assessment.",
+      "whyItMatters": "Sets the starting point that later changes are measured against.",
+      "reasoning": "Design fixture. No reviewer has assessed this claim.",
+      "previous": null,
+      "next": {
+        "confidence": "high",
+        "finding": "supports-benefit"
+      },
+      "evidenceIds": [],
+      "review": {
+        "status": "unreviewed"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "sauna",
+  "name": "Sauna",
+  "order": 1,
+  "summary": "Illustrative sample. Regular heat exposure in a dry or traditional sauna.",
+  "aliases": [
+    "heat therapy"
+  ],
+  "fixture": true
+}

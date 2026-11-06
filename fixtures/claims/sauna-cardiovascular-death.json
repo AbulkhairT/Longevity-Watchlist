@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "sauna-cardiovascular-death",
+  "interventionId": "sauna",
+  "title": "Cardiovascular death",
+  "order": 0,
+  "fixture": true,
+  "illustrative": true,
+  "assessment": {
+    "confidence": "low",
+    "finding": "supports-benefit",
+    "evidenceBase": "human",
+    "population": "Middle-aged men in Finland, followed for decades",
+    "design": "Observational cohorts",
+    "outcomeType": "health-outcome",
+    "plain": "Frequent users had fewer heart deaths. Observational only.",
+    "summary": "Frequent sauna use is linked with lower cardiovascular death in long-term cohort studies.",
+    "rationale": "Illustrative grade for design review only. Not assessed against the rubric.",
+    "limitations": "Observational: frequent sauna users may be healthier to begin with. Mostly one country and one population.",
+    "evidenceIds": []
+  },
+  "review": {
+    "status": "unreviewed"
+  },
+  "updates": [
+    {
+      "id": "sauna-cardiovascular-death-first-assessment",
+      "kind": "first-assessment",
+      "date": null,
+      "summary": "Illustrative starting grade: low confidence. Sample content, not a reviewed assessment.",
+      "whyItMatters": "Sets the starting point that later changes are measured against.",
+      "reasoning": "Design fixture. No reviewer has assessed this claim.",
+      "previous": null,
+      "next": {
+        "confidence": "low",
+        "finding": "supports-benefit"
+      },
+      "evidenceIds": [],
+      "review": {
+        "status": "unreviewed"
+      }
+    }
+  ]
+}

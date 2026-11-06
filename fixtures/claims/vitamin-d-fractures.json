@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "vitamin-d-fractures",
+  "interventionId": "vitamin-d",
+  "title": "Fracture prevention",
+  "order": 0,
+  "fixture": true,
+  "illustrative": true,
+  "assessment": {
+    "confidence": "high",
+    "finding": "no-meaningful-benefit",
+    "evidenceBase": "human",
+    "population": "Generally healthy adults, not selected for deficiency",
+    "design": "Large randomized trials",
+    "outcomeType": "health-outcome",
+    "plain": "No fewer fractures in large trials of healthy adults.",
+    "summary": "Large trials found no reduction in fractures from routine vitamin D supplementation.",
+    "rationale": "Illustrative grade for design review only. Not assessed against the rubric.",
+    "limitations": "Does not apply to people with deficiency or osteoporosis, who were mostly not the focus.",
+    "evidenceIds": []
+  },
+  "review": {
+    "status": "unreviewed"
+  },
+  "updates": [
+    {
+      "id": "vitamin-d-fractures-first-assessment",
+      "kind": "first-assessment",
+      "date": null,
+      "summary": "Illustrative starting grade: high confidence. Sample content, not a reviewed assessment.",
+      "whyItMatters": "Sets the starting point that later changes are measured against.",
+      "reasoning": "Design fixture. No reviewer has assessed this claim.",
+      "previous": null,
+      "next": {
+        "confidence": "high",
+        "finding": "no-meaningful-benefit"
+      },
+      "evidenceIds": [],
+      "review": {
+        "status": "unreviewed"
+      }
+    }
+  ]
+}

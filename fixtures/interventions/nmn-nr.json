@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "nmn-nr",
+  "name": "NMN / NR",
+  "order": 3,
+  "summary": "Illustrative sample. NAD+ precursors: nicotinamide mononucleotide and nicotinamide riboside.",
+  "aliases": [
+    "NMN",
+    "NR",
+    "NAD+"
+  ],
+  "fixture": true
+}

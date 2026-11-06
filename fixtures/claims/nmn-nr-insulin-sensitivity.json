@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "nmn-nr-insulin-sensitivity",
+  "interventionId": "nmn-nr",
+  "title": "Insulin sensitivity",
+  "order": 1,
+  "fixture": true,
+  "illustrative": true,
+  "assessment": {
+    "confidence": "low",
+    "finding": "mixed",
+    "evidenceBase": "human",
+    "population": "Adults with overweight or prediabetes",
+    "design": "Small randomized trials",
+    "outcomeType": "biomarker",
+    "plain": "One small trial positive, others found no change.",
+    "summary": "One small trial found improved muscle insulin sensitivity; others found no change.",
+    "rationale": "Illustrative grade for design review only. Not assessed against the rubric.",
+    "limitations": "Small samples, different compounds (NMN vs NR) and populations.",
+    "evidenceIds": []
+  },
+  "review": {
+    "status": "unreviewed"
+  },
+  "updates": [
+    {
+      "id": "nmn-nr-insulin-sensitivity-first-assessment",
+      "kind": "first-assessment",
+      "date": null,
+      "summary": "Illustrative starting grade: low confidence. Sample content, not a reviewed assessment.",
+      "whyItMatters": "Sets the starting point that later changes are measured against.",
+      "reasoning": "Design fixture. No reviewer has assessed this claim.",
+      "previous": null,
+      "next": {
+        "confidence": "low",
+        "finding": "mixed"
+      },
+      "evidenceIds": [],
+      "review": {
+        "status": "unreviewed"
+      }
+    }
+  ]
+}

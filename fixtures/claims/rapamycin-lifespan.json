@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "rapamycin-lifespan",
+  "interventionId": "rapamycin",
+  "title": "Human lifespan",
+  "order": 0,
+  "fixture": true,
+  "illustrative": true,
+  "assessment": {
+    "confidence": "very-low",
+    "finding": "insufficient",
+    "evidenceBase": "animal",
+    "population": "Mice in the NIA Interventions Testing Program. No human lifespan data",
+    "design": "Animal studies",
+    "outcomeType": "health-outcome",
+    "plain": "Extends lifespan in mice. Never measured in people.",
+    "summary": "Rapamycin extends lifespan in mice, including when started in middle age. No human study has measured lifespan.",
+    "rationale": "Illustrative grade for design review only. Not assessed against the rubric.",
+    "limitations": "Animal results may not translate to people. Rapamycin suppresses parts of the immune system at transplant doses.",
+    "evidenceIds": []
+  },
+  "review": {
+    "status": "unreviewed"
+  },
+  "updates": [
+    {
+      "id": "rapamycin-lifespan-first-assessment",
+      "kind": "first-assessment",
+      "date": null,
+      "summary": "Illustrative starting grade: very low confidence. Sample content, not a reviewed assessment.",
+      "whyItMatters": "Sets the starting point that later changes are measured against.",
+      "reasoning": "Design fixture. No reviewer has assessed this claim.",
+      "previous": null,
+      "next": {
+        "confidence": "very-low",
+        "finding": "insufficient"
+      },
+      "evidenceIds": [],
+      "review": {
+        "status": "unreviewed"
+      }
+    }
+  ]
+}
