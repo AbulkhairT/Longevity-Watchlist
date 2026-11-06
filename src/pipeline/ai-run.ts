@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { aiDraftingAllowed, PINNED_MODEL, type PipelineConfig } from "@/lib/pipeline-config";
+import { aiDraftingAllowed, PINNED_MODEL, type PipelineConfig } from "../lib/pipeline-config";
 import { createHttp, type FetchLike } from "./http";
 import { systemPrompt, userPrompt, validateDraft, type ClaimContext, type RejectedDraft, type StoredAiDraft, StoredAiDraft as StoredSchema } from "./draft";
 import { Candidate } from "./types";

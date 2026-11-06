@@ -1,5 +1,5 @@
-import type { PipelineConfig } from "@/lib/pipeline-config";
-import { PINNED_MODEL } from "@/lib/pipeline-config";
+import type { PipelineConfig } from "../lib/pipeline-config";
+import { PINNED_MODEL } from "../lib/pipeline-config";
 import { CapReachedError, HttpError, type HttpClient } from "./http";
 
 /**

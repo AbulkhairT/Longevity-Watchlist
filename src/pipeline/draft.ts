@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { StudyDesign } from "@/lib/schema";
+import { StudyDesign } from "../lib/schema";
 import type { Candidate } from "./types";
 
 /**

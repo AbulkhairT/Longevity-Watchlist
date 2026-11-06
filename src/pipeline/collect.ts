@@ -1,5 +1,5 @@
-import type { PipelineConfig } from "@/lib/pipeline-config";
-import type { InterventionCounts } from "@/lib/monitoring";
+import type { PipelineConfig } from "../lib/pipeline-config";
+import type { InterventionCounts } from "../lib/monitoring";
 import { trialText, searchStudies } from "./ctgov";
 import { CapReachedError, HttpError, type HttpClient } from "./http";
 import { efetch, esearch, NON_EVIDENCE_TYPES, type NcbiIdentity } from "./pubmed";

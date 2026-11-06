@@ -1,4 +1,4 @@
-import type { PipelineConfig } from "@/lib/pipeline-config";
+import type { PipelineConfig } from "../lib/pipeline-config";
 import { HttpError, type HttpClient } from "./http";
 import type { PubmedRecord } from "./types";
 

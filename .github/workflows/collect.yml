@@ -1,0 +1,105 @@
+name: Collect research
+
+# Weekly collection from PubMed and ClinicalTrials.gov, optional AI drafting,
+# then one draft PR containing only drafts/ changes. Never publishes anything.
+# Runs only on the default branch's code (schedule / manual dispatch); it is
+# never triggered by pull requests and never uses pull_request_target.
+on:
+  schedule:
+    - cron: "23 6 * * 1" # Mondays 06:23 UTC
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: collect-research
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+      pull-requests: write
+    env:
+      BRANCH: research/drafts
+      BASE: ${{ github.event.repository.default_branch }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - name: Continue the open drafts branch, or start one
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin "$BRANCH" > /dev/null; then
+            git fetch origin "$BRANCH"
+            git checkout -B "$BRANCH" "origin/$BRANCH"
+            git merge --no-edit "origin/$BASE"
+          else
+            git checkout -B "$BRANCH" "origin/$BASE"
+          fi
+          # Run the default branch's code, never code from the drafts branch.
+          git diff --quiet "origin/$BASE" -- . ':(exclude)drafts' || { echo "Drafts branch changes files outside drafts/. Fix it by hand."; exit 1; }
+
+      - name: Collect from PubMed and ClinicalTrials.gov
+        env:
+          NCBI_TOOL: ${{ vars.NCBI_TOOL }}
+          NCBI_EMAIL: ${{ vars.NCBI_EMAIL }}
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+        run: npm run --silent collect
+
+      - name: AI drafting (glm-4.7-flash)
+        if: vars.ZAI_DRAFTING_ENABLED == 'true'
+        env:
+          ZAI_DRAFTING_ENABLED: ${{ vars.ZAI_DRAFTING_ENABLED }}
+          ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
+        run: npm run --silent draft:ai
+
+      - name: Record that AI drafting is off
+        if: vars.ZAI_DRAFTING_ENABLED != 'true'
+        run: npm run --silent draft:ai
+
+      - name: Refuse changes outside drafts/
+        run: |
+          git add -A drafts
+          if git status --porcelain | grep -v '^.. drafts/'; then
+            echo "Unexpected changes outside drafts/."
+            exit 1
+          fi
+
+      - name: Write the PR summary
+        run: npm run --silent pr:summary > "$RUNNER_TEMP/pr-body.md"
+
+      - name: Commit and push the drafts branch
+        run: |
+          if git diff --cached --quiet; then
+            echo "No new drafts."
+          else
+            git commit -m "Research drafts: run $(cat drafts/runs/latest-run-id)"
+          fi
+          git push origin "$BRANCH"
+
+      - name: Open or update the draft PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet "origin/$BASE" -- drafts; then
+            echo "Drafts branch matches $BASE; no PR needed."
+            exit 0
+          fi
+          num=$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number')
+          if [ -n "$num" ]; then
+            gh pr edit "$num" --body-file "$RUNNER_TEMP/pr-body.md"
+          else
+            gh pr create --draft --base "$BASE" --head "$BRANCH" \
+              --title "Research drafts (not published)" \
+              --body-file "$RUNNER_TEMP/pr-body.md"
+          fi

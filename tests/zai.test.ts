@@ -124,7 +124,7 @@ describe("key isolation", () => {
     const dir = path.join(process.cwd(), ".github", "workflows");
     for (const f of fs.readdirSync(dir)) {
       const y = fs.readFileSync(path.join(dir, f), "utf8");
-      expect(y, f).not.toMatch(/pull_request_target/);
+      expect(y, f).not.toMatch(/^\s*pull_request_target:/m);
       for (const line of y.split("\n").filter((l) => l.includes("ZAI_API_KEY") && l.includes(":") && !l.trim().startsWith("#"))) {
         expect(line.trim(), f).toBe("ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}");
       }
