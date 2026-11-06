@@ -1,0 +1,24 @@
+name: Request an intervention
+description: Ask Longevity Watchlist to cover a new intervention.
+title: "Intervention request: "
+labels: ["intervention-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. **Do not include any personal health information**: no conditions, symptoms, medications, diagnoses or goals. This issue is public.
+        New interventions go through full claim seeding and human review, so we add them slowly. Add a thumbs-up reaction to an existing request instead of opening a duplicate.
+  - type: input
+    id: intervention
+    attributes:
+      label: Intervention
+      description: The supplement, practice or drug, e.g. "Magnesium" or "Cold water immersion".
+    validations:
+      required: true
+  - type: textarea
+    id: claims
+    attributes:
+      label: Claims you would like assessed (optional)
+      description: Outcomes in general terms, e.g. "sleep quality" or "muscle strength". Please keep personal details out.
+    validations:
+      required: false

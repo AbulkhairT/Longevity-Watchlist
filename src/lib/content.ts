@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
+import { hashApprovalCheck } from "./approval";
 import { Claim, EvidenceRecord, Intervention } from "./schema";
 
 /**
@@ -11,7 +12,8 @@ import { Claim, EvidenceRecord, Intervention } from "./schema";
  * - "fixtures" reads only `fixtures/` (design samples). It is refused on a
  *   production deployment so sample content can never be published.
  *
- * `drafts/` is never read by the website.
+ * Approvals are verified against content hashes (see approval.ts).
+ * `drafts/` and `monitoring/` are never read by the website.
  */
 
 export type ContentMode = "published" | "fixtures";
@@ -149,7 +151,8 @@ export function loadContent(): ContentBundle {
     if (raw.evidence.length) throw new ContentError("fixtures/ must not contain evidence records");
     cached = { mode, ...raw };
   } else {
-    const { skipped, ...bundle } = selectPublishable(readContentDir(PUBLISHED_DIR));
+    const raw = readContentDir(PUBLISHED_DIR);
+    const { skipped, ...bundle } = selectPublishable(raw, hashApprovalCheck(raw.evidence));
     for (const s of skipped) console.warn(`[content] not published: ${s.id} (${s.reason})`);
     cached = { mode, ...bundle };
   }

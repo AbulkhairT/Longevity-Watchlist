@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "runId": "2000-01-03T06-00-00Z",
+  "fixture": true,
+  "startedAt": "2000-01-03T06:00:00Z",
+  "finishedAt": "2000-01-03T06:20:00Z",
+  "producedBy": "fixture",
+  "notes": ["Sample data for design review. Not produced by a pipeline run."],
+  "interventions": {
+    "creatine": { "papersScreened": 9, "trialRecordsChecked": 2, "candidatesFound": 3, "rejectedIrrelevant": 1, "rejectedDuplicate": 1, "updatesPublished": 1, "gradeChanges": 1 },
+    "sauna": { "papersScreened": 4, "trialRecordsChecked": 1, "candidatesFound": 2, "rejectedIrrelevant": 1, "rejectedDuplicate": 0, "updatesPublished": 1, "gradeChanges": 1 },
+    "rapamycin": { "papersScreened": 6, "trialRecordsChecked": 3, "candidatesFound": 1, "rejectedIrrelevant": 1, "rejectedDuplicate": 0, "updatesPublished": 0, "gradeChanges": 0 },
+    "nmn-nr": { "papersScreened": 5, "trialRecordsChecked": 2, "candidatesFound": 0, "rejectedIrrelevant": 0, "rejectedDuplicate": 0, "updatesPublished": 0, "gradeChanges": 0 },
+    "vitamin-d": { "papersScreened": 11, "trialRecordsChecked": 1, "candidatesFound": 2, "rejectedIrrelevant": 1, "rejectedDuplicate": 1, "updatesPublished": 0, "gradeChanges": 0 },
+    "omega-3": { "papersScreened": 7, "trialRecordsChecked": 0, "candidatesFound": 1, "rejectedIrrelevant": 0, "rejectedDuplicate": 0, "updatesPublished": 1, "gradeChanges": 0 }
+  }
+}

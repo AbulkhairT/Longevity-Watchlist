@@ -13,6 +13,7 @@ export function SiteFooter({ mode }: { mode: ContentMode }) {
       <p className="footer-links">
         <Link href="/methodology/">How we grade evidence</Link>
         <Link href="/methodology/#corrections">Corrections</Link>
+        <Link href="/digest/">Weekly digest</Link>
         <a href="/feed.xml">RSS</a>
       </p>
     </footer>

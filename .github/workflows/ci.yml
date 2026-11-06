@@ -1,0 +1,37 @@
+name: CI
+
+# Runs on pull requests (including the scheduled draft PRs) and pushes to main.
+# No secrets are used or available here; untrusted PR code runs with read-only access.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      # Fails if approved content changed after approval, or fixtures leak into content/.
+      - run: npm run validate
+      - name: Build published site
+        run: npm run build
+      - name: Check export has no fixture or draft content
+        run: npm run check:export

@@ -142,6 +142,7 @@ export function SiteNav() {
       <span className="nav-links">
         {link("/claims/", "All claims")}
         {link("/updates/", "Updates")}
+        {link("/digest/", "Weekly digest")}
         <Link href="/#following" className="nav-link">
           Following · {following}
         </Link>

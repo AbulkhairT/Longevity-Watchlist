@@ -1085,6 +1085,155 @@ main:focus {
   min-height: 44px;
 }
 
+
+/* ---------- Weekly digest ---------- */
+
+.plans {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+}
+.plan {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 28px;
+}
+.plan-muted {
+  background: transparent;
+  border: 1px solid var(--line-2);
+}
+.plan-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.plan-name {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+.plan-price {
+  margin: 0;
+  font-family: var(--display);
+  font-size: 22px;
+}
+.plan-price .muted {
+  font-family: var(--body);
+}
+.plan-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: var(--ink-2);
+}
+.plan-list li {
+  padding-left: 18px;
+  position: relative;
+}
+.plan-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.62em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--ink);
+}
+.plan .cta {
+  margin-top: auto;
+  text-decoration: none;
+}
+.notice {
+  margin: 0;
+  font-size: 14px;
+  color: var(--muted);
+}
+.digest-signup .signup {
+  max-width: 640px;
+}
+.signup {
+  padding: 28px;
+}
+.signup > fieldset,
+.choices {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+.signup > fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.signup > fieldset[disabled] {
+  opacity: 0.55;
+}
+.signup .fineprint,
+.signup .notice {
+  margin-top: 14px;
+}
+.field-label {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--meta);
+  padding: 0;
+}
+.field {
+  min-height: 44px;
+  padding: 0 16px;
+  border: 1px solid var(--line-2);
+  border-radius: 12px;
+  background: var(--card);
+  font: inherit;
+  color: var(--ink);
+}
+.choices {
+  margin-top: 8px;
+}
+.choice-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 4px 16px;
+  margin-top: 8px;
+}
+.choice {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  font-family: var(--display);
+  font-size: 17px;
+  cursor: pointer;
+}
+.choice input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--ink);
+}
+.signup .cta {
+  margin-top: 8px;
+}
+a.cta {
+  text-decoration: none;
+  color: var(--bg);
+}
+a.cta:hover {
+  color: var(--bg);
+}
+
 /* ---------- Motion ---------- */
 
 @keyframes lwIn {
@@ -1248,6 +1397,10 @@ main:focus {
   }
   .follow-list {
     grid-template-columns: 1fr;
+  }
+  .plan,
+  .signup {
+    padding: 22px;
   }
 }
 
