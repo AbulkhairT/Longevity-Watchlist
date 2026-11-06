@@ -1,0 +1,90 @@
+{
+  "$comment": "Claim-specific searches for the weekly collector. STARTING POINTS ONLY: every query needs human tuning (precision and recall) before relying on it. Claim IDs match the design fixtures; candidates are drafts until a person writes and approves real claims.",
+  "schemaVersion": 1,
+  "searches": [
+    {
+      "claimId": "creatine-strength",
+      "interventionId": "creatine",
+      "needsHumanTuning": true,
+      "pubmed": { "term": "creatine[tiab] AND (strength[tiab] OR \"muscle strength\"[tiab] OR \"resistance training\"[tiab]) AND (randomized[tiab] OR randomised[tiab] OR meta-analysis[pt] OR systematic[sb])" },
+      "clinicaltrials": { "intervention": "creatine", "term": "strength" }
+    },
+    {
+      "claimId": "creatine-cognition",
+      "interventionId": "creatine",
+      "needsHumanTuning": true,
+      "pubmed": { "term": "creatine[tiab] AND (cognition[tiab] OR cognitive[tiab] OR memory[tiab]) AND (humans[mh] OR randomized[tiab] OR randomised[tiab])" },
+      "clinicaltrials": { "intervention": "creatine", "term": "cognition OR cognitive OR memory" }
+    },
+    {
+      "claimId": "sauna-cardiovascular-death",
+      "interventionId": "sauna",
+      "needsHumanTuning": true,
+      "pubmed": { "term": "(sauna[tiab] OR \"sauna bathing\"[tiab]) AND (cardiovascular[tiab] OR mortality[tiab] OR \"sudden cardiac death\"[tiab])" },
+      "clinicaltrials": { "intervention": "sauna", "term": "cardiovascular OR mortality" }
+    },
+    {
+      "claimId": "sauna-blood-pressure",
+      "interventionId": "sauna",
+      "needsHumanTuning": true,
+      "pubmed": { "term": "(sauna[tiab] OR \"heat therapy\"[tiab]) AND (\"blood pressure\"[tiab] OR hypertension[tiab])" },
+      "clinicaltrials": { "intervention": "sauna", "term": "blood pressure OR hypertension" }
+    },
+    {
+      "claimId": "rapamycin-lifespan",
+      "interventionId": "rapamycin",
+      "needsHumanTuning": true,
+      "pubmed": { "term": "(rapamycin[tiab] OR sirolimus[tiab]) AND (lifespan[tiab] OR longevity[tiab] OR aging[tiab] OR ageing[tiab])" },
+      "clinicaltrials": { "intervention": "rapamycin OR sirolimus", "term": "aging OR longevity" }
+    },
+    {
+      "claimId": "rapamycin-infections",
+      "interventionId": "rapamycin",
+      "needsHumanTuning": true,
+      "pubmed": { "term": "(rapamycin[tiab] OR sirolimus[tiab] OR everolimus[tiab] OR \"mTOR inhibitor\"[tiab]) AND (infection*[tiab] OR immun*[tiab]) AND (elderly[tiab] OR \"older adults\"[tiab] OR aged[mh])" },
+      "clinicaltrials": { "intervention": "rapamycin OR sirolimus OR everolimus", "term": "infection AND older adults" }
+    },
+    {
+      "claimId": "nmn-nr-nad-levels",
+      "interventionId": "nmn-nr",
+      "needsHumanTuning": true,
+      "pubmed": { "term": "(\"nicotinamide mononucleotide\"[tiab] OR \"nicotinamide riboside\"[tiab]) AND NAD*[tiab] AND (randomized[tiab] OR randomised[tiab] OR humans[mh])" },
+      "clinicaltrials": { "intervention": "nicotinamide mononucleotide OR nicotinamide riboside", "term": "NAD" }
+    },
+    {
+      "claimId": "nmn-nr-insulin-sensitivity",
+      "interventionId": "nmn-nr",
+      "needsHumanTuning": true,
+      "pubmed": { "term": "(\"nicotinamide mononucleotide\"[tiab] OR \"nicotinamide riboside\"[tiab]) AND (insulin[tiab] OR glucose[tiab] OR prediabetes[tiab])" },
+      "clinicaltrials": { "intervention": "nicotinamide mononucleotide OR nicotinamide riboside", "term": "insulin OR glucose" }
+    },
+    {
+      "claimId": "vitamin-d-fractures",
+      "interventionId": "vitamin-d",
+      "needsHumanTuning": true,
+      "pubmed": { "term": "(\"vitamin D\"[tiab] OR cholecalciferol[tiab]) AND supplement*[tiab] AND fracture*[tiab] AND (randomized[tiab] OR randomised[tiab] OR meta-analysis[pt])" },
+      "clinicaltrials": { "intervention": "vitamin D OR cholecalciferol", "term": "fracture" }
+    },
+    {
+      "claimId": "vitamin-d-cancer-incidence",
+      "interventionId": "vitamin-d",
+      "needsHumanTuning": true,
+      "pubmed": { "term": "(\"vitamin D\"[tiab] OR cholecalciferol[tiab]) AND supplement*[tiab] AND (cancer[tiab] OR neoplasm*[tiab]) AND (randomized[tiab] OR randomised[tiab] OR meta-analysis[pt])" },
+      "clinicaltrials": { "intervention": "vitamin D OR cholecalciferol", "term": "cancer" }
+    },
+    {
+      "claimId": "omega-3-heart-events",
+      "interventionId": "omega-3",
+      "needsHumanTuning": true,
+      "pubmed": { "term": "(\"omega-3\"[tiab] OR \"fish oil\"[tiab] OR EPA[tiab]) AND (\"primary prevention\"[tiab] OR \"cardiovascular events\"[tiab] OR \"myocardial infarction\"[tiab]) AND (randomized[tiab] OR randomised[tiab] OR meta-analysis[pt])" },
+      "clinicaltrials": { "intervention": "omega-3 OR fish oil", "term": "cardiovascular" }
+    },
+    {
+      "claimId": "omega-3-atrial-fibrillation",
+      "interventionId": "omega-3",
+      "needsHumanTuning": true,
+      "pubmed": { "term": "(\"omega-3\"[tiab] OR \"fish oil\"[tiab]) AND (\"atrial fibrillation\"[tiab])" },
+      "clinicaltrials": { "intervention": "omega-3 OR fish oil", "term": "atrial fibrillation" }
+    }
+  ]
+}

@@ -39,9 +39,9 @@ try {
   loadPipelineConfig();
   loadDigestConfig();
   const runs = readRuns(MONITORING_DIR);
-  if (runs.some((r) => r.fixture)) throw new Error("monitoring/runs contains fixture runs");
+  if (runs.some((r) => r.fixture)) throw new Error("drafts/monitoring/runs contains fixture runs");
   readRuns(FIXTURE_MONITORING_DIR);
-  console.log(`config/: valid. monitoring/runs/: ${runs.length} recorded runs`);
+  console.log(`config/: valid. drafts/monitoring/runs/: ${runs.length} recorded runs`);
 } catch (err) {
   failed = true;
   console.error(`config or monitoring: ${(err as Error).message}`);

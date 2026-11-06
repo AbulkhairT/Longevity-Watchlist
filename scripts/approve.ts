@@ -1,7 +1,8 @@
 /**
  * Approve a reviewed claim for publication. Run by a person, never by CI.
  *
- *   npm run approve -- <claim-id> --reviewer "Full Name" --reasoning "Why this is right" [--github handle] [--date YYYY-MM-DD] [--yes]
+ *   npm run approve -- <claim-id> --reviewer "Full Name" --reason "Why this is right" [--github handle] [--date YYYY-MM-DD] [--yes]
+ *   (--reasoning is accepted as a synonym for --reason)
  *
  * Takes the edited draft from drafts/claims/<id>.json (or, for a re-approval,
  * the edited file in content/claims/<id>.json), validates it, records the
@@ -40,6 +41,7 @@ async function main() {
     options: {
       reviewer: { type: "string" },
       github: { type: "string" },
+      reason: { type: "string" },
       reasoning: { type: "string" },
       date: { type: "string" },
       yes: { type: "boolean", default: false },
@@ -47,9 +49,10 @@ async function main() {
     },
   });
   const id = positionals[0];
-  if (!id) fail("usage: npm run approve -- <claim-id> --reviewer \"Name\" --reasoning \"...\"");
+  if (!id) fail("usage: npm run approve -- <claim-id> --reviewer \"Name\" --reason \"...\"");
   if (!values.reviewer?.trim()) fail("--reviewer is required (your own name)");
-  if (!values.reasoning?.trim()) fail("--reasoning is required (why the assessment and changes are correct)");
+  const reason = (values.reason ?? values.reasoning)?.trim();
+  if (!reason) fail("--reason is required (why the assessment and changes are correct)");
   const date = values.date ?? new Date().toISOString().slice(0, 10);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) fail("--date must be YYYY-MM-DD");
 
@@ -81,7 +84,7 @@ async function main() {
   const approved = approveClaim(claim, [...evidence.values()], {
     reviewer: { name: values.reviewer.trim(), ...(values.github ? { github: values.github.trim() } : {}) },
     reviewedAt: date,
-    reasoning: values.reasoning.trim(),
+    reasoning: reason,
   });
   const parsed = Claim.safeParse(approved);
   if (!parsed.success) fail(`approved claim failed validation:\n${z.prettifyError(parsed.error)}`);

@@ -21,7 +21,12 @@ export const PipelineConfig = z
       .object({
         provider: z.literal("z.ai"),
         model: z.literal(PINNED_MODEL),
-        endpoint: z.string().url().startsWith("https://api.z.ai/"),
+        endpoint: z.literal("https://api.z.ai/api/paas/v4/chat/completions"),
+        temperature: z.number().min(0).max(1),
+        /** Send response_format {type: "json_object"}. Turn off only if the smoke test shows it is rejected. */
+        sendResponseFormat: z.boolean(),
+        /** Send thinking {type: "disabled"}. Turn off only if the smoke test shows it is rejected. */
+        sendThinkingDisabled: z.boolean(),
         /** Set to true only by a person who checked Z.ai's official pricing page that this model is free. */
         freeTierConfirmed: z.boolean(),
         freeTierConfirmedBy: z.string().nullable(),
@@ -53,6 +58,9 @@ export const PipelineConfig = z
           requestsPerSecondWithoutKey: z.number().positive().max(3),
           requestsPerSecondWithKey: z.number().positive().max(10),
           maxResultsPerQuery: positiveInt.max(100),
+          esearchPageSize: positiveInt.max(100),
+          /** IDs per efetch request (bounded batch). */
+          efetchBatchSize: positiveInt.max(100),
           lookbackDays: positiveInt.max(60),
         }),
         clinicaltrials: z.object({
@@ -60,7 +68,10 @@ export const PipelineConfig = z
           minSecondsBetweenRequests: z.number().min(0.5),
           pageSize: positiveInt.max(100),
           maxPagesPerQuery: positiveInt.max(10),
+          lookbackDays: positiveInt.max(60),
         }),
+        /** Stop creating candidates after this many in one run; the rest wait for the next run. */
+        maxNewCandidatesPerRun: positiveInt.max(200),
         requestTimeoutSeconds: positiveInt.max(120),
         maxTransientRetries: z.number().int().min(0).max(2),
       })
@@ -73,9 +84,14 @@ export function loadPipelineConfig(file = path.join(process.cwd(), "config", "pi
   return PipelineConfig.parse(JSON.parse(fs.readFileSync(file, "utf8")));
 }
 
-/** Gate checked before a run's first AI call. False means manual mode. */
+/**
+ * Gate checked before a run's first AI call. Both human switches must be on:
+ * the ZAI_DRAFTING_ENABLED repository variable (on/off), and the pricing check
+ * recorded in config/pipeline.json (who, when, which page). Otherwise: manual mode.
+ */
 export function aiDraftingAllowed(cfg: PipelineConfig, env: Record<string, string | undefined> = process.env): { ok: boolean; reason: string } {
-  if (!cfg.ai.freeTierConfirmed) return { ok: false, reason: "free tier not confirmed by a human in config/pipeline.json" };
-  if (!env.ZAI_API_KEY) return { ok: false, reason: "ZAI_API_KEY is not set" };
-  return { ok: true, reason: "free tier confirmed" };
+  if (env.ZAI_DRAFTING_ENABLED !== "true") return { ok: false, reason: "ZAI_DRAFTING_ENABLED is not \"true\" (collection only)" };
+  if (!cfg.ai.freeTierConfirmed) return { ok: false, reason: "free-tier check not recorded in config/pipeline.json (collection only)" };
+  if (!env.ZAI_API_KEY) return { ok: false, reason: "ZAI_API_KEY secret is not available to this step" };
+  return { ok: true, reason: "drafting enabled" };
 }

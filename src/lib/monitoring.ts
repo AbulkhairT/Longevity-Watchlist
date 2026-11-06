@@ -5,7 +5,8 @@ import type { Claim } from "./schema";
 
 /**
  * Monitoring log: what each collection run actually did, per intervention.
- * Stored as versioned JSON in monitoring/runs/ (outside public content).
+ * Stored as versioned JSON in drafts/monitoring/runs/ (outside public content;
+ * the scheduled PR only ever touches drafts/).
  * Counts come only from real pipeline runs. Fixture runs live in
  * fixtures/monitoring/ and are always labelled sample data.
  */
@@ -42,8 +43,27 @@ export const MonitoringRun = z
     finishedAt: z.string().datetime({ offset: true }),
     /** Which part of the pipeline produced the counts. */
     producedBy: z.enum(["collection-pipeline", "fixture"]),
-    /** Caps or errors that ended the run early, in plain words. */
+    /** Caps or errors that ended the run early, in plain words. Never secrets or response bodies. */
     notes: z.array(z.string()).default([]),
+    /** Request and token counts for the run (added by collection and AI drafting). */
+    usage: z
+      .object({
+        pubmedRequests: count,
+        clinicaltrialsRequests: count,
+        transientRetries: count,
+        candidatesNew: count,
+        candidatesRevised: count,
+        aiEnabled: z.boolean(),
+        aiCandidatesSent: count,
+        aiRequests: count,
+        aiPromptTokens: count,
+        aiCompletionTokens: count,
+        aiDrafted: count,
+        aiRejected: count,
+        aiStopReason: z.string().nullable(),
+      })
+      .strict()
+      .optional(),
     interventions: z.record(z.string(), InterventionCounts),
   })
   .strict()
@@ -55,7 +75,7 @@ export const MonitoringRun = z
   });
 export type MonitoringRun = z.infer<typeof MonitoringRun>;
 
-export const MONITORING_DIR = path.join(process.cwd(), "monitoring", "runs");
+export const MONITORING_DIR = path.join(process.cwd(), "drafts", "monitoring", "runs");
 export const FIXTURE_MONITORING_DIR = path.join(process.cwd(), "fixtures", "monitoring");
 
 export function readRuns(dir: string): MonitoringRun[] {
@@ -130,13 +150,27 @@ export function publishedSince(claims: readonly Claim[], sinceDate: string, unti
   return out;
 }
 
-/** Write one run to monitoring/runs/. Used by the collection pipeline (Phase 3). */
+/** Write one run to drafts/monitoring/runs/. Used by the collection pipeline (Phase 3). */
+export function runFile(runId: string, dir = MONITORING_DIR): string {
+  return path.join(dir, `${runId.replace(/[:.]/g, "-")}.json`);
+}
+
 export function recordRun(run: MonitoringRun, dir = MONITORING_DIR): string {
   const parsed = MonitoringRun.parse(run);
-  if (parsed.fixture) throw new Error("Fixture runs are never written to monitoring/runs");
+  if (parsed.fixture) throw new Error("Fixture runs are never written to drafts/monitoring/runs");
   fs.mkdirSync(dir, { recursive: true });
-  const file = path.join(dir, `${parsed.runId.replace(/[:.]/g, "-")}.json`);
+  const file = runFile(parsed.runId, dir);
   if (fs.existsSync(file)) throw new Error(`Run ${parsed.runId} already recorded`);
   fs.writeFileSync(file, `${JSON.stringify(parsed, null, 2)}\n`);
   return file;
+}
+
+/** Update an existing run (AI drafting adds its usage counts after collection). */
+export function updateRun(runId: string, fn: (r: MonitoringRun) => MonitoringRun, dir = MONITORING_DIR): MonitoringRun {
+  const file = runFile(runId, dir);
+  const current = MonitoringRun.parse(JSON.parse(fs.readFileSync(file, "utf8")));
+  const next = MonitoringRun.parse(fn(current));
+  if (next.fixture) throw new Error("Fixture runs are never written to drafts/monitoring/runs");
+  fs.writeFileSync(file, `${JSON.stringify(next, null, 2)}\n`);
+  return next;
 }

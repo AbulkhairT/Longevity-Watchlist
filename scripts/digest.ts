@@ -14,7 +14,8 @@
  *   manifest.json                         which file goes to which subscriber tags
  *
  * Production digests read only content/ (with approval hashes verified) and
- * monitoring/runs/. They never read drafts/ or fixtures/.
+ * drafts/monitoring/runs/ (monitoring counts only). They never read draft
+ * claims, candidates, AI output (drafts/ai, drafts/rejected) or fixtures/.
  */
 import fs from "node:fs";
 import path from "node:path";
